@@ -1,0 +1,16 @@
+{
+  "name": "examples_effect_4th_dev",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@effect/language-service": "^0.79.0",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "effect": "^4.0.0-beta.29"
+  }
+}
