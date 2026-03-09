@@ -44,6 +44,40 @@ OPENAI_API_KEY=your_api_key_here
 
 If both keys are present, provider defaults to OpenAI. Override with `AI_PROVIDER=openrouter`.
 
+Some Lesson 04 examples also require:
+
+```bash
+GEMINI_API_KEY=your_gemini_key_here
+REPLICATE_API_TOKEN=your_replicate_token_here
+```
+
+For image-generation examples, `OPENROUTER_API_KEY` can be used as the image backend with `google/gemini-3.1-flash-image-preview`. `GEMINI_API_KEY` remains the native fallback, and some media examples still need it for native Gemini-only features.
+
+Some Lesson 05 examples also require:
+
+```bash
+RESEND_API_KEY=re_...
+RESEND_FROM=noreply@yourdomain.com
+SEED_API_KEY=your_optional_seed_token
+```
+
+Some Lesson 04 examples also require:
+
+```bash
+GEMINI_API_KEY=your_gemini_key_here
+REPLICATE_API_TOKEN=your_replicate_token_here
+```
+
+For image-generation examples, `OPENROUTER_API_KEY` can be used as the image backend with `google/gemini-3.1-flash-image-preview`. `GEMINI_API_KEY` remains the native fallback, and some media examples still need it for native Gemini-only features.
+
+Some Lesson 05 examples also require:
+
+```bash
+RESEND_API_KEY=re_...
+RESEND_FROM=noreply@yourdomain.com
+SEED_API_KEY=your_optional_seed_token
+```
+
 ## Lesson 01
 
 | Example | Run | Description |
@@ -58,4 +92,16 @@ Install dependencies:
 npm run lesson1:install
 ```
 
+## Lesson 02
+
+| Example | Run | Description |
+|---------|-----|-------------|
+| `01_02_tool_use` | `npm run lesson2:tool_use` | Function calling with sandboxed filesystem tools |
+| `01_02_tools` | `bun run lesson2:minimal` | Minimal Responses API function-calling demo with a single `get_weather` tool |
+
+Install dependencies:
+
+```bash
+npm run lesson2:install
+```
 
