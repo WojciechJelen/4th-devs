@@ -1,5 +1,6 @@
 import { readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
+import { createInterface } from "node:readline/promises";
 
 import { paths, cli } from "./src/config.js";
 import { splitParagraphs } from "./src/utils/text.js";
@@ -9,7 +10,22 @@ import { dedupeConcepts } from "./src/pipeline/dedupe.js";
 import { searchConcepts } from "./src/pipeline/search.js";
 import { generateAndApplyTemplate } from "./src/pipeline/ground.js";
 
+const confirmRun = async () => {
+  const rl = createInterface({ input: process.stdin, output: process.stdout });
+  console.log("\n⚠️  UWAGA: Uruchomienie tego skryptu może zużyć znaczną ilość tokenów.");
+  console.log("   Jeśli nie chcesz go uruchamiać, możesz sprawdzić gotowy wynik w pliku:");
+  console.log("   01_01_grounding/output/grounded_demo.html\n");
+  const answer = await rl.question("Czy chcesz kontynuować? (yes/y): ");
+  rl.close();
+  const normalized = answer.trim().toLowerCase();
+  if (normalized !== "yes" && normalized !== "y") {
+    console.log("Przerwano.");
+    process.exit(0);
+  }
+};
+
 const main = async () => {
+  await confirmRun();
   const sourceFile = await resolveMarkdownPath(paths.notes, cli.inputFile);
   const markdown = await readFile(sourceFile, "utf8");
   const paragraphs = splitParagraphs(markdown);

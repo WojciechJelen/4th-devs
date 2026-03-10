@@ -1,6 +1,6 @@
 {
-  "sourceFile": "/Users/wojciechjelen/workspace/4th-devs/01_01_grounding/notes/crypto.md",
-  "model": "gpt-5.4",
+  "sourceFile": "/Users/overment/playground/devs/01_01_grounding/notes/crypto.md",
+  "model": "openai/gpt-5.4",
   "paragraphs": [
     {
       "index": 0,
@@ -13,9 +13,7 @@
           "needsSearch": false,
           "searchQuery": null,
           "reason": "The header introduces the central domain topic of the paragraph.",
-          "surfaceForms": [
-            "Understanding Cryptocurrencies"
-          ]
+          "surfaceForms": ["Understanding Cryptocurrencies"]
         }
       ]
     },
@@ -41,9 +39,7 @@
           "needsSearch": true,
           "searchQuery": "\"Bitcoin: A Peer-to-Peer Electronic Cash System\" whitepaper",
           "reason": "This is a cited external work central to the paragraph and readily verifiable.",
-          "surfaceForms": [
-            "\"Bitcoin: A Peer-to-Peer Electronic Cash System\""
-          ]
+          "surfaceForms": ["\"Bitcoin: A Peer-to-Peer Electronic Cash System\""]
         },
         {
           "label": "Bitcoin creation in 2008 by Satoshi Nakamoto",
@@ -62,9 +58,7 @@
           "needsSearch": true,
           "searchQuery": "Satoshi Nakamoto pseudonym Bitcoin creator",
           "reason": "A central named identity in the paragraph whose role and background benefit from grounding.",
-          "surfaceForms": [
-            "the pseudonym Satoshi Nakamoto"
-          ]
+          "surfaceForms": ["the pseudonym Satoshi Nakamoto"]
         }
       ]
     },
@@ -79,9 +73,7 @@
           "needsSearch": false,
           "searchQuery": null,
           "reason": "The header names the main domain-specific topic of the section.",
-          "surfaceForms": [
-            "Blockchain Technology"
-          ]
+          "surfaceForms": ["Blockchain Technology"]
         }
       ]
     },
@@ -157,9 +149,7 @@
           "needsSearch": false,
           "searchQuery": null,
           "reason": "Central consensus method named in the paragraph; a core Bitcoin concept worth identifying.",
-          "surfaceForms": [
-            "called Proof of Work"
-          ]
+          "surfaceForms": ["called Proof of Work"]
         }
       ]
     },
@@ -174,9 +164,7 @@
           "needsSearch": false,
           "searchQuery": null,
           "reason": "Section header naming the paragraph's main topic: smart contracts in the context of Ethereum.",
-          "surfaceForms": [
-            "Ethereum and Smart Contracts"
-          ]
+          "surfaceForms": ["Ethereum and Smart Contracts"]
         }
       ]
     },
@@ -202,9 +190,7 @@
           "needsSearch": false,
           "searchQuery": null,
           "reason": "Named person central to the paragraph as the proposer of Ethereum.",
-          "surfaceForms": [
-            "Vitalik Buterin"
-          ]
+          "surfaceForms": ["Vitalik Buterin"]
         },
         {
           "label": "Smart contract",
@@ -259,9 +245,7 @@
           "needsSearch": false,
           "searchQuery": null,
           "reason": "Header naming a core domain-specific concept for the following section.",
-          "surfaceForms": [
-            "Decentralized Finance"
-          ]
+          "surfaceForms": ["Decentralized Finance"]
         }
       ]
     },
@@ -297,9 +281,7 @@
           "needsSearch": false,
           "searchQuery": null,
           "reason": "This is a standard quantitative measure used to assess the amount of capital deposited in DeFi protocols.",
-          "surfaceForms": [
-            "total value locked in DeFi protocols"
-          ]
+          "surfaceForms": ["total value locked in DeFi protocols"]
         }
       ]
     },
@@ -370,9 +352,7 @@
           "needsSearch": true,
           "searchQuery": "SEC classified most cryptocurrencies as securities exceptions Bitcoin Ethereum",
           "reason": "This is a broad regulatory claim about the SEC's treatment of cryptocurrencies and benefits from verification.",
-          "surfaceForms": [
-            "classified most cryptocurrencies as securities"
-          ]
+          "surfaceForms": ["classified most cryptocurrencies as securities"]
         },
         {
           "label": "Bitcoin and Ethereum as exceptions to SEC classification",
@@ -380,9 +360,7 @@
           "needsSearch": true,
           "searchQuery": "SEC exceptions Bitcoin Ethereum securities classification",
           "reason": "The paragraph asserts specific exceptions to the SEC's classification approach, which is verifiable and potentially nuanced.",
-          "surfaceForms": [
-            "notable exceptions for Bitcoin and Ethereum"
-          ]
+          "surfaceForms": ["notable exceptions for Bitcoin and Ethereum"]
         },
         {
           "label": "SEC v. Ripple case (2023)",
@@ -390,9 +368,7 @@
           "needsSearch": true,
           "searchQuery": "SEC v. Ripple case 2023 programmatic sales ruling",
           "reason": "This is a specific legal case cited as support for the paragraph's regulatory claim.",
-          "surfaceForms": [
-            "SEC v. Ripple case in 2023"
-          ]
+          "surfaceForms": ["SEC v. Ripple case in 2023"]
         }
       ]
     }
