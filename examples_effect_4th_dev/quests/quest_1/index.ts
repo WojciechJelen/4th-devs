@@ -1,5 +1,6 @@
 import { Effect } from "effect";
 import { AVAILABLE_JOB_TAGS, type JobTag } from "../../schemas";
+import { sendAnswer } from "../../send-answer";
 import { tagJob } from "./tag-job";
 
 const CURRENT_YEAR = 2026;
@@ -421,6 +422,10 @@ export const program = Effect.gen(function* () {
   yield* saveResults(enrichedPeople);
 
   const peopleTaskPayload = yield* loadPeopleTaskPayloadFromResults();
+  const verifyResponse = yield* sendAnswer({
+    task: peopleTaskPayload.task,
+    answer: peopleTaskPayload.answer,
+  });
 
   yield* Effect.sync(() => {
     console.log(
@@ -428,6 +433,8 @@ export const program = Effect.gen(function* () {
     );
     console.log("People task payload:");
     console.log(JSON.stringify(peopleTaskPayload, null, 2));
+    console.log("Verify response:");
+    console.log(JSON.stringify(verifyResponse, null, 2));
   });
 });
 
