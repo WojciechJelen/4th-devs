@@ -1,5 +1,5 @@
 {
-  "sourceFile": "/Users/overment/playground/devs/01_01_grounding/notes/crypto.md",
+  "sourceFile": "/Users/wojciechjelen/workspace/4th-devs/01_01_grounding/notes/crypto.md",
   "model": "gpt-5.4",
   "paragraphs": [
     {
@@ -8,21 +8,14 @@
       "text": "# Understanding Cryptocurrencies",
       "concepts": [
         {
-          "label": "Cryptocurrencies",
+          "label": "Cryptocurrency",
           "category": "term",
           "needsSearch": false,
           "searchQuery": null,
-          "reason": "Central domain term indicated by the header; widely known but still a key topic anchor for the document.",
+          "reason": "The header introduces the central domain topic of the paragraph.",
           "surfaceForms": [
             "Understanding Cryptocurrencies"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 1,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 6
+          ]
         }
       ]
     },
@@ -32,57 +25,46 @@
       "text": "Bitcoin was created in 2008 by an anonymous person or group using the pseudonym Satoshi Nakamoto. The whitepaper titled \"Bitcoin: A Peer-to-Peer Electronic Cash System\" introduced a decentralized digital currency that operates without central banks or intermediaries.",
       "concepts": [
         {
-          "label": "Bitcoin whitepaper \"Bitcoin: A Peer-to-Peer Electronic Cash System\"",
+          "label": "Bitcoin as a decentralized digital currency without intermediaries",
+          "category": "definition",
+          "needsSearch": true,
+          "searchQuery": "Bitcoin decentralized digital currency without central banks or intermediaries",
+          "reason": "This phrase defines Bitcoin's core nature and operational model in a way that benefits from grounding.",
+          "surfaceForms": [
+            "a decentralized digital currency",
+            "without central banks or intermediaries"
+          ]
+        },
+        {
+          "label": "Bitcoin: A Peer-to-Peer Electronic Cash System",
           "category": "reference",
           "needsSearch": true,
-          "searchQuery": "\"Bitcoin: A Peer-to-Peer Electronic Cash System\" whitepaper publication date author",
-          "reason": "Named document title; verifying authorship and publication details benefits from grounding.",
+          "searchQuery": "\"Bitcoin: A Peer-to-Peer Electronic Cash System\" whitepaper",
+          "reason": "This is a cited external work central to the paragraph and readily verifiable.",
           "surfaceForms": [
-            "whitepaper titled \"Bitcoin: A Peer-to-Peer Electronic Cash System\""
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
+            "\"Bitcoin: A Peer-to-Peer Electronic Cash System\""
+          ]
         },
         {
-          "label": "Bitcoin created in 2008 by Satoshi Nakamoto",
+          "label": "Bitcoin creation in 2008 by Satoshi Nakamoto",
           "category": "claim",
           "needsSearch": true,
-          "searchQuery": "Bitcoin created in 2008 by Satoshi Nakamoto 2008 creation date",
-          "reason": "Specific historical attribution (date and creator) that is commonly cited but should be verified.",
+          "searchQuery": "Bitcoin created in 2008 Satoshi Nakamoto",
+          "reason": "This is a specific historical claim about Bitcoin's origin, date, and attributed creator.",
           "surfaceForms": [
-            "created in 2008",
-            "pseudonym Satoshi Nakamoto"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
+            "Bitcoin was created in 2008",
+            "using the pseudonym Satoshi Nakamoto"
+          ]
         },
         {
-          "label": "Bitcoin as decentralized digital currency without central banks or intermediaries",
-          "category": "claim",
+          "label": "Satoshi Nakamoto",
+          "category": "entity",
           "needsSearch": true,
-          "searchQuery": "Bitcoin decentralized digital currency operates without central banks or intermediaries whitepaper description",
-          "reason": "Substantive characterization of Bitcoin’s design; can be checked against primary sources like the whitepaper.",
+          "searchQuery": "Satoshi Nakamoto pseudonym Bitcoin creator",
+          "reason": "A central named identity in the paragraph whose role and background benefit from grounding.",
           "surfaceForms": [
-            "decentralized digital currency",
-            "operates without central banks or intermediaries"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 7
+            "the pseudonym Satoshi Nakamoto"
+          ]
         }
       ]
     },
@@ -96,17 +78,10 @@
           "category": "term",
           "needsSearch": false,
           "searchQuery": null,
-          "reason": "Section header indicating the central topic; a domain-specific term but not a claim requiring verification.",
+          "reason": "The header names the main domain-specific topic of the section.",
           "surfaceForms": [
             "Blockchain Technology"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 1,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 6
+          ]
         }
       ]
     },
@@ -116,74 +91,37 @@
       "text": "A blockchain is a distributed ledger that records all transactions across a network of computers. Each block contains a cryptographic hash of the previous block, creating an immutable chain. Bitcoin's blockchain processes roughly 7 transactions per second, while Visa handles around 24,000.",
       "concepts": [
         {
-          "label": "Bitcoin blockchain throughput around 7 transactions per second",
-          "category": "metric",
+          "label": "Bitcoin vs Visa transaction throughput",
+          "category": "claim",
           "needsSearch": true,
-          "searchQuery": "Bitcoin blockchain processes roughly 7 transactions per second source",
-          "reason": "Quantitative throughput figure is verifiable and commonly debated depending on measurement assumptions; needs citation.",
+          "searchQuery": "Bitcoin blockchain roughly 7 transactions per second Visa around 24000 transactions per second",
+          "reason": "This is a quantitative comparison between two payment systems that benefits from verification.",
           "surfaceForms": [
-            "Bitcoin's blockchain processes roughly 7 transactions per second"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
-        },
-        {
-          "label": "Visa throughput around 24,000 transactions per second",
-          "category": "metric",
-          "needsSearch": true,
-          "searchQuery": "Visa handles around 24000 transactions per second source",
-          "reason": "Specific performance number for Visa is verifiable and varies by definition (peak vs average); needs grounding.",
-          "surfaceForms": [
+            "Bitcoin's blockchain processes roughly 7 transactions per second",
             "Visa handles around 24,000"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
+          ]
         },
         {
-          "label": "Hash-linked blocks forming an immutable chain",
-          "category": "definition",
-          "needsSearch": true,
-          "searchQuery": "each block contains a cryptographic hash of the previous block creating an immutable chain explanation",
-          "reason": "Technical explanation that motivates immutability; benefits from authoritative grounding on how hash pointers enable tamper-evidence and what 'immutable' means in practice.",
+          "label": "Hash-linked block structure",
+          "category": "method",
+          "needsSearch": false,
+          "searchQuery": null,
+          "reason": "This explains the mechanism by which blocks are linked and why the chain is considered immutable.",
           "surfaceForms": [
             "cryptographic hash of the previous block",
             "creating an immutable chain"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 1
-          },
-          "scoreTotal": 7
+          ]
         },
         {
-          "label": "Blockchain as a distributed ledger",
+          "label": "Blockchain",
           "category": "definition",
           "needsSearch": false,
           "searchQuery": null,
-          "reason": "Core definition of blockchain used as a foundational concept; widely established and less dependent on specific external verification.",
+          "reason": "The paragraph explicitly defines blockchain by describing what it is and what it records.",
           "surfaceForms": [
-            "blockchain is a distributed ledger",
-            "records all transactions across a network"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 1,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 6
+            "distributed ledger that records all transactions",
+            "across a network of computers"
+          ]
         }
       ]
     },
@@ -193,76 +131,35 @@
       "text": "The consensus mechanism Bitcoin uses is called Proof of Work, where miners compete to solve complex mathematical puzzles. The first miner to solve the puzzle adds the next block and receives newly minted bitcoin as a reward. This reward started at 50 BTC and halves approximately every four years.",
       "concepts": [
         {
-          "label": "Bitcoin block subsidy started at 50 BTC and halves about every four years",
-          "category": "metric",
-          "needsSearch": true,
-          "searchQuery": "Bitcoin block reward started 50 BTC halving approximately every four years 210000 blocks",
-          "reason": "Quantitative historical parameters (initial subsidy and halving schedule) are verifiable and commonly cited with exact block interval details.",
-          "surfaceForms": [
-            "reward started at 50 BTC",
-            "halves approximately every four years"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
-        },
-        {
-          "label": "Bitcoin Proof of Work consensus mechanism",
-          "category": "method",
-          "needsSearch": true,
-          "searchQuery": "Bitcoin consensus mechanism Proof of Work description",
-          "reason": "Central technical characterization of how Bitcoin reaches consensus; worth verifying against authoritative sources.",
-          "surfaceForms": [
-            "consensus mechanism Bitcoin uses",
-            "called Proof of Work"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 1
-          },
-          "scoreTotal": 7
-        },
-        {
-          "label": "Miners compete to solve cryptographic puzzles",
-          "category": "method",
-          "needsSearch": true,
-          "searchQuery": "Bitcoin mining compete solve mathematical puzzle proof of work cryptographic hash",
-          "reason": "Describes the operational process of Bitcoin mining/PoW; benefits from grounding in accurate technical detail (hash puzzle).",
-          "surfaceForms": [
-            "miners compete to solve complex mathematical puzzles"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 1
-          },
-          "scoreTotal": 6
-        },
-        {
-          "label": "Block reward for adding the next block",
+          "label": "Bitcoin block reward schedule",
           "category": "claim",
           "needsSearch": true,
-          "searchQuery": "Bitcoin first miner to solve puzzle adds next block receives block reward newly minted bitcoin",
-          "reason": "Specific claim about who appends blocks and how rewards are issued; should be verified for correctness and nuance (coinbase transaction, fees).",
+          "searchQuery": "Bitcoin block reward started at 50 BTC halves every four years",
+          "reason": "This is a concrete factual claim about Bitcoin's issuance schedule, including an initial amount and halving cadence.",
           "surfaceForms": [
-            "first miner to solve the puzzle",
-            "adds the next block",
-            "receives newly minted bitcoin as a reward"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 1
-          },
-          "scoreTotal": 6
+            "started at 50 BTC",
+            "halves approximately every four years"
+          ]
+        },
+        {
+          "label": "Proof-of-Work mining process",
+          "category": "definition",
+          "needsSearch": true,
+          "searchQuery": "Bitcoin Proof of Work miners compete to solve mathematical puzzles definition",
+          "reason": "This sentence explains how Proof of Work operates in Bitcoin and is a verifiable description of the mechanism.",
+          "surfaceForms": [
+            "miners compete to solve complex mathematical puzzles"
+          ]
+        },
+        {
+          "label": "Proof of Work",
+          "category": "method",
+          "needsSearch": false,
+          "searchQuery": null,
+          "reason": "Central consensus method named in the paragraph; a core Bitcoin concept worth identifying.",
+          "surfaceForms": [
+            "called Proof of Work"
+          ]
         }
       ]
     },
@@ -276,17 +173,10 @@
           "category": "term",
           "needsSearch": false,
           "searchQuery": null,
-          "reason": "Header indicates the section’s central topic: smart contracts in the context of Ethereum; useful as a stable domain concept, though not a claim requiring verification.",
+          "reason": "Section header naming the paragraph's main topic: smart contracts in the context of Ethereum.",
           "surfaceForms": [
             "Ethereum and Smart Contracts"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 1,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 7
+          ]
         }
       ]
     },
@@ -296,42 +186,37 @@
       "text": "Ethereum was proposed by Vitalik Buterin in 2013 and launched in 2015. It introduced smart contracts—self-executing programs stored on the blockchain that automatically enforce agreements when conditions are met.",
       "concepts": [
         {
-          "label": "Ethereum proposed by Vitalik Buterin in 2013 and launched in 2015",
+          "label": "Ethereum proposal and launch timeline",
           "category": "claim",
           "needsSearch": true,
-          "searchQuery": "Ethereum proposed by Vitalik Buterin 2013 launched 2015 sources",
-          "reason": "Contains specific dates and attribution about Ethereum’s origin and launch that should be verified with reliable references.",
+          "searchQuery": "Ethereum proposed by Vitalik Buterin in 2013 launched in 2015",
+          "reason": "This is a dated historical claim about Ethereum's origin and launch that is directly verifiable.",
           "surfaceForms": [
             "proposed by Vitalik Buterin in 2013",
             "launched in 2015"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
+          ]
         },
         {
-          "label": "Smart contracts as self-executing programs on the blockchain that enforce agreements when conditions are met",
+          "label": "Vitalik Buterin",
+          "category": "entity",
+          "needsSearch": false,
+          "searchQuery": null,
+          "reason": "Named person central to the paragraph as the proposer of Ethereum.",
+          "surfaceForms": [
+            "Vitalik Buterin"
+          ]
+        },
+        {
+          "label": "Smart contract",
           "category": "definition",
           "needsSearch": true,
-          "searchQuery": "definition of smart contracts self-executing programs stored on the blockchain enforce agreements conditions met",
-          "reason": "Provides an explicit definition/explanation of smart contracts that benefits from grounding to standard references (e.g., academic papers or official documentation).",
+          "searchQuery": "smart contracts self-executing programs stored on the blockchain automatically enforce agreements",
+          "reason": "The paragraph gives an explicit definitional description of smart contracts that can be grounded against standard sources.",
           "surfaceForms": [
-            "smart contracts—self-executing programs",
-            "stored on the blockchain",
-            "automatically enforce agreements",
-            "when conditions are met"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 7
+            "smart contracts",
+            "self-executing programs stored on the blockchain",
+            "automatically enforce agreements when conditions are met"
+          ]
         }
       ]
     },
@@ -341,57 +226,25 @@
       "text": "In September 2022, Ethereum transitioned from Proof of Work to Proof of Stake in an event called \"The Merge.\" This reduced Ethereum's energy consumption by approximately 99.95% according to the Ethereum Foundation.",
       "concepts": [
         {
-          "label": "Ethereum energy consumption reduced by ~99.95% after The Merge (Ethereum Foundation claim)",
+          "label": "Ethereum energy consumption reduced by approximately 99.95%",
           "category": "result",
           "needsSearch": true,
-          "searchQuery": "Ethereum energy consumption reduced 99.95% Ethereum Foundation The Merge",
-          "reason": "Quantified reduction attributed to a specific source; requires grounding/confirmation and context for how the estimate was calculated.",
+          "searchQuery": "Ethereum energy consumption reduced approximately 99.95% Ethereum Foundation The Merge",
+          "reason": "This is a quantitative reported outcome attributed to a source and should be verified.",
           "surfaceForms": [
             "reduced Ethereum's energy consumption by approximately 99.95%",
             "according to the Ethereum Foundation"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
+          ]
         },
         {
-          "label": "Ethereum 'The Merge' transition to Proof of Stake (September 2022)",
+          "label": "Ethereum's transition from Proof of Work to Proof of Stake",
           "category": "claim",
           "needsSearch": true,
-          "searchQuery": "September 2022 Ethereum transitioned from Proof of Work to Proof of Stake The Merge",
-          "reason": "Specific dated event and technical transition that is central to the paragraph and should be verified with authoritative sources.",
+          "searchQuery": "Ethereum transitioned from Proof of Work to Proof of Stake September 2022 The Merge",
+          "reason": "This is a dated, verifiable statement about a major protocol change on Ethereum.",
           "surfaceForms": [
-            "In September 2022",
             "Ethereum transitioned from Proof of Work to Proof of Stake"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
-        },
-        {
-          "label": "Ethereum Foundation",
-          "category": "entity",
-          "needsSearch": false,
-          "searchQuery": null,
-          "reason": "Named organization serving as the attribution source for the energy reduction figure; useful entity for grounding context.",
-          "surfaceForms": [
-            "Ethereum Foundation"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 1,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 7
+          ]
         }
       ]
     },
@@ -401,21 +254,14 @@
       "text": "## Decentralized Finance",
       "concepts": [
         {
-          "label": "Decentralized Finance (DeFi)",
+          "label": "Decentralized finance",
           "category": "term",
           "needsSearch": false,
           "searchQuery": null,
-          "reason": "Header introduces the key domain term; generally well-known, so no verification is required, but it is central and canonical for the section topic.",
+          "reason": "Header naming a core domain-specific concept for the following section.",
           "surfaceForms": [
             "Decentralized Finance"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 1,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 6
+          ]
         }
       ]
     },
@@ -425,58 +271,35 @@
       "text": "DeFi applications allow users to lend, borrow, and trade without traditional financial intermediaries. The total value locked in DeFi protocols peaked at over $180 billion in late 2021 before declining significantly.",
       "concepts": [
         {
-          "label": "Total value locked (TVL) in DeFi protocols peak",
-          "category": "metric",
+          "label": "DeFi TVL peak and decline in 2021",
+          "category": "claim",
           "needsSearch": true,
-          "searchQuery": "DeFi total value locked peaked over $180 billion late 2021",
-          "reason": "Quantitative historical claim about TVL level and timing that requires verification from market data sources.",
+          "searchQuery": "DeFi total value locked peaked over $180 billion late 2021 declined significantly",
+          "reason": "This is a time-specific quantitative claim about DeFi market size and its subsequent downturn that benefits from verification.",
           "surfaceForms": [
-            "total value locked in DeFi protocols",
-            "peaked at over $180 billion",
-            "late 2021"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 1
-          },
-          "scoreTotal": 7
+            "peaked at over $180 billion in late 2021",
+            "before declining significantly"
+          ]
         },
         {
-          "label": "Decentralized finance (DeFi) applications",
+          "label": "Decentralized finance (DeFi)",
           "category": "definition",
-          "needsSearch": true,
-          "searchQuery": "definition of DeFi applications lend borrow trade without intermediaries",
-          "reason": "Provides a functional definition of DeFi that can be grounded with authoritative sources and examples.",
+          "needsSearch": false,
+          "searchQuery": null,
+          "reason": "The paragraph gives a concise functional explanation of DeFi by describing the activities it enables without intermediaries.",
           "surfaceForms": [
-            "DeFi applications",
             "lend, borrow, and trade without traditional financial intermediaries"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 7
+          ]
         },
         {
-          "label": "Post-2021 decline in DeFi total value locked",
-          "category": "result",
-          "needsSearch": true,
-          "searchQuery": "DeFi TVL declined significantly after late 2021",
-          "reason": "Reported outcome (significant decline) that benefits from time-series evidence and context on magnitude and causes.",
+          "label": "Total value locked (TVL)",
+          "category": "metric",
+          "needsSearch": false,
+          "searchQuery": null,
+          "reason": "This is a standard quantitative measure used to assess the amount of capital deposited in DeFi protocols.",
           "surfaceForms": [
-            "declining significantly"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 1
-          },
-          "scoreTotal": 6
+            "total value locked in DeFi protocols"
+          ]
         }
       ]
     },
@@ -486,72 +309,37 @@
       "text": "Uniswap, launched in 2018, pioneered the automated market maker model where liquidity providers deposit token pairs into pools. The protocol has processed over $1.8 trillion in trading volume since its launch.",
       "concepts": [
         {
-          "label": "Uniswap pioneered the automated market maker (AMM) model",
+          "label": "Uniswap pioneered the automated market maker model and launched in 2018",
           "category": "claim",
           "needsSearch": true,
-          "searchQuery": "Did Uniswap pioneer automated market maker model first AMM DEX history",
-          "reason": "The claim that Uniswap 'pioneered' AMMs is historically specific and requires validation (other AMM designs existed earlier).",
+          "searchQuery": "Uniswap launched in 2018 pioneered automated market maker model",
+          "reason": "This is a specific historical claim about Uniswap's launch date and its role in popularizing AMMs.",
           "surfaceForms": [
+            "launched in 2018",
             "pioneered the automated market maker model"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
+          ]
         },
         {
-          "label": "Uniswap trading volume over $1.8 trillion since launch",
-          "category": "metric",
-          "needsSearch": true,
-          "searchQuery": "Uniswap has processed over $1.8 trillion trading volume since launch source",
-          "reason": "A quantitative cumulative volume figure is time-dependent and should be verified with an authoritative source and timestamp.",
-          "surfaceForms": [
-            "over $1.8 trillion in trading volume since its launch"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
-        },
-        {
-          "label": "Uniswap launch year (2018)",
+          "label": "Uniswap has processed over $1.8 trillion in trading volume since launch",
           "category": "claim",
           "needsSearch": true,
-          "searchQuery": "Uniswap launched in 2018 launch date",
-          "reason": "Launch year is a specific factual attribution that should be verified against primary/credible sources.",
+          "searchQuery": "Uniswap processed over $1.8 trillion in trading volume since launch",
+          "reason": "This is a quantitative performance claim that benefits from verification against protocol statistics or reporting.",
           "surfaceForms": [
-            "Uniswap, launched in 2018"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
+            "processed over $1.8 trillion",
+            "trading volume since its launch"
+          ]
         },
         {
-          "label": "AMM liquidity pools funded by liquidity providers depositing token pairs",
+          "label": "Automated market maker model",
           "category": "definition",
           "needsSearch": true,
-          "searchQuery": "Uniswap AMM model liquidity providers deposit token pairs into pools explanation",
-          "reason": "Describes the mechanism of the AMM/pool model; grounding can confirm accuracy and clarify if it applies to specific Uniswap versions.",
+          "searchQuery": "automated market maker model liquidity providers deposit token pairs into pools definition",
+          "reason": "The paragraph explains what the AMM model involves, making it a definitional concept worth grounding.",
           "surfaceForms": [
+            "automated market maker model",
             "liquidity providers deposit token pairs into pools"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 1
-          },
-          "scoreTotal": 6
+          ]
         }
       ]
     },
@@ -559,25 +347,7 @@
       "index": 11,
       "hash": "2b4dc0af10386af8cf127a282065524ce36d203664362f84954351084e248d18",
       "text": "## Regulatory Landscape",
-      "concepts": [
-        {
-          "label": "Regulatory landscape",
-          "category": "term",
-          "needsSearch": false,
-          "searchQuery": null,
-          "reason": "Section header indicating the topic of regulations affecting the subject; not a specific factual claim that requires verification.",
-          "surfaceForms": [
-            "Regulatory Landscape"
-          ],
-          "scores": {
-            "specificity": 1,
-            "searchValue": 1,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 6
-        }
-      ]
+      "concepts": []
     },
     {
       "index": 12,
@@ -585,47 +355,50 @@
       "text": "The SEC has classified most cryptocurrencies as securities, with notable exceptions for Bitcoin and Ethereum. The landmark SEC v. Ripple case in 2023 established that programmatic sales of tokens on exchanges do not necessarily constitute securities transactions.",
       "concepts": [
         {
-          "label": "SEC v. Ripple (2023) ruling on programmatic token sales not necessarily being securities transactions",
+          "label": "Programmatic token sales on exchanges not necessarily securities transactions",
           "category": "result",
           "needsSearch": true,
-          "searchQuery": "SEC v. Ripple 2023 programmatic sales exchanges do not necessarily constitute securities transactions ruling",
-          "reason": "Specific legal outcome tied to a named case and year; should be verified against the court decision and reporting on its holdings.",
+          "searchQuery": "programmatic sales of tokens on exchanges do not necessarily constitute securities transactions Ripple ruling",
+          "reason": "This is the reported legal outcome attributed to the cited case and should be grounded against the court decision.",
           "surfaceForms": [
-            "SEC v. Ripple case in 2023",
-            "programmatic sales of tokens on exchanges",
-            "do not necessarily constitute securities transactions"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
+            "programmatic sales of tokens on exchanges do not necessarily constitute securities transactions"
+          ]
         },
         {
-          "label": "SEC classification of most cryptocurrencies as securities with exceptions for Bitcoin and Ethereum",
+          "label": "SEC classification of most cryptocurrencies as securities",
           "category": "claim",
           "needsSearch": true,
           "searchQuery": "SEC classified most cryptocurrencies as securities exceptions Bitcoin Ethereum",
-          "reason": "Verifiable regulatory characterization attributed to the SEC; likely nuanced and requires grounding in SEC statements and enforcement history.",
+          "reason": "This is a broad regulatory claim about the SEC's treatment of cryptocurrencies and benefits from verification.",
           "surfaceForms": [
-            "SEC has classified most cryptocurrencies as securities",
-            "exceptions for Bitcoin and Ethereum"
-          ],
-          "scores": {
-            "specificity": 2,
-            "searchValue": 2,
-            "relevance": 2,
-            "canonicality": 2
-          },
-          "scoreTotal": 8
+            "classified most cryptocurrencies as securities"
+          ]
+        },
+        {
+          "label": "Bitcoin and Ethereum as exceptions to SEC classification",
+          "category": "claim",
+          "needsSearch": true,
+          "searchQuery": "SEC exceptions Bitcoin Ethereum securities classification",
+          "reason": "The paragraph asserts specific exceptions to the SEC's classification approach, which is verifiable and potentially nuanced.",
+          "surfaceForms": [
+            "notable exceptions for Bitcoin and Ethereum"
+          ]
+        },
+        {
+          "label": "SEC v. Ripple case (2023)",
+          "category": "reference",
+          "needsSearch": true,
+          "searchQuery": "SEC v. Ripple case 2023 programmatic sales ruling",
+          "reason": "This is a specific legal case cited as support for the paragraph's regulatory claim.",
+          "surfaceForms": [
+            "SEC v. Ripple case in 2023"
+          ]
         }
       ]
     }
   ],
   "paragraphCount": 13,
-  "conceptCount": 30,
+  "conceptCount": 29,
   "sourceHash": "77f9f11488f95cf87bf90af42729684b52c9dd8e2bcf7e4fde758f6c46f722da",
-  "conceptsHash": "c04c37da3fe0aceba05b1fcbcde6f5f768d55d7894166357c6309e0f0d7d30a5"
+  "conceptsHash": "9a235e6d1c83e710cda1fc3d445f0b15079b570298065d34a3c97046eabb7f5b"
 }

@@ -1,229 +1,201 @@
 {
-  "sourceFile": "/Users/overment/playground/devs/01_01_grounding/notes/crypto.md",
+  "sourceFile": "/Users/wojciechjelen/workspace/4th-devs/01_01_grounding/notes/crypto.md",
   "model": "gpt-5.4",
   "sourceHash": "77f9f11488f95cf87bf90af42729684b52c9dd8e2bcf7e4fde758f6c46f722da",
-  "dedupeHash": "ca563b6908434e28ec339589d3ccdbefe1b7f3f5196a09bac453e8b07ddd4d3e",
+  "dedupeHash": "d68d36b0a23894828047d559a656ef7fbbb437574aabd4d31c0c9843f616d972",
   "resultsByCanonical": {
-    "Bitcoin: A Peer-to-Peer Electronic Cash System whitepaper": {
-      "canonical": "Bitcoin: A Peer-to-Peer Electronic Cash System whitepaper",
-      "summary": "\"Bitcoin: A Peer-to-Peer Electronic Cash System\" is the original Bitcoin whitepaper, authored under the pseudonym Satoshi Nakamoto and published on October 31, 2008. The paper introduced Bitcoin as a peer-to-peer electronic cash system designed to let online payments move directly between parties without a financial institution, using a proof-of-work blockchain to address double-spending.",
+    "Bitcoin as a decentralized digital currency without intermediaries": {
+      "canonical": "Bitcoin as a decentralized digital currency without intermediaries",
+      "summary": "Bitcoin is a decentralized digital currency introduced in 2009 that uses a peer-to-peer network and cryptography to let users transfer value without a central bank or traditional payment intermediary. Its transaction validation and issuance are handled collectively by the network rather than a single institution, and U.S. authorities have noted that it is not backed by any government or central bank and is not legal tender.",
       "keyPoints": [
-        "The whitepaper’s author is listed as Satoshi Nakamoto, a pseudonymous name associated with Bitcoin’s creator.",
-        "Multiple sources identify the publication date as October 31, 2008, when the paper was shared publicly on a cryptography mailing list.",
-        "The paper is commonly described as 9 pages long and foundational to Bitcoin and later blockchain-based systems.",
-        "Its core contribution was proposing a decentralized ledger and proof-of-work mechanism so transactions could be verified without a trusted third party."
+        "Satoshi Nakamoto’s white paper describes Bitcoin as a 'peer-to-peer electronic cash system,' designed to enable online payments without relying on a trusted third party.",
+        "Bitcoin uses peer-to-peer technology and a distributed ledger (blockchain), so transaction verification is performed by network participants instead of banks or a central operator.",
+        "The U.S. Consumer Financial Protection Bureau states that virtual currencies such as Bitcoin are not backed by any government or central bank.",
+        "The Federal Reserve has explained that Bitcoin gave shape to the vision of a decentralized digital currency, but unlike U.S. currency it is not legal tender and is not a liability of the Federal Reserve or a bank."
       ],
       "sources": [
         {
-          "title": "Bitcoin: A Peer-to-Peer Electronic Cash System | Satoshi Nakamoto Institute",
-          "url": "https://nakamotoinstitute.org/library/bitcoin/"
+          "title": "Bitcoin - Open source P2P money",
+          "url": "https://bitcoin.org/whitepaper.pdf"
         },
         {
-          "title": "Bitcoin Whitepaper - A Peer-to-Peer Electronic Cash System | Satoshi Nakamoto",
-          "url": "https://btcpaper.org/"
+          "title": "Bitcoin: A Peer-to-Peer Electronic Cash System | Bitcoin Paper",
+          "url": "https://www.bitcoinpaper.info/bitcoinpaper-html/"
         },
         {
-          "title": "Bitcoin whitepaper | bitFlyer",
-          "url": "https://bitflyer.com/en-eu/s/glossary/bitcoin-whitepaper"
+          "title": "CFPB Warns Consumers About Bitcoin | Consumer Financial Protection Bureau",
+          "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-warns-consumers-about-bitcoin/"
         },
         {
-          "title": "Bitcoin Whitepaper",
-          "url": "https://www.bitstamp.net/learn/crypto-101/bitcoin-whitepaper/"
+          "title": "Speech by Governor Brainard on cryptocurrencies, digital currencies, and distributed ledger technologies - Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/newsevents/speech/brainard20180515a.htm"
         },
         {
-          "title": "Satoshi Nakamoto",
-          "url": "https://en.wikipedia.org/wiki/Satoshi_Nakamoto"
+          "title": "Bitcoin: Questions, Answers, and Analysis of",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R43339/R43339.20.pdf"
         }
       ]
     },
-    "Bitcoin created in 2008 by Satoshi Nakamoto": {
-      "canonical": "Bitcoin created in 2008 by Satoshi Nakamoto",
-      "summary": "Bitcoin was proposed by the pseudonymous Satoshi Nakamoto in 2008, not fully launched that year. The key 2008 milestone was publication of the white paper, “Bitcoin: A Peer-to-Peer Electronic Cash System,” on October 31, 2008. Bitcoin’s operational launch followed in 2009, when the genesis block was created on January 3, 2009 and Bitcoin v0.1 was released on January 9, 2009.",
+    "Bitcoin: A Peer-to-Peer Electronic Cash System": {
+      "canonical": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+      "summary": "\"Bitcoin: A Peer-to-Peer Electronic Cash System\" is the original Bitcoin whitepaper by Satoshi Nakamoto, published on October 31, 2008. It proposes a decentralized electronic payment system that allows online payments to be sent directly between parties without a financial intermediary, using a peer-to-peer network, a chain of hash-based proof-of-work, and public-key signatures to address double-spending without relying on a trusted third party.",
       "keyPoints": [
-        "The Bitcoin white paper is dated October 31, 2008 and is attributed to Satoshi Nakamoto, establishing 2008 as the year Bitcoin was introduced publicly as a concept.",
-        "Bitcoin.org was registered on August 18, 2008, before the white paper was published, showing the project infrastructure was being set up in 2008.",
-        "Bitcoin’s genesis block was established on January 3, 2009, which is widely treated as the start of the live Bitcoin network rather than its 2008 conceptual origin.",
-        "Bitcoin v0.1 was released on January 9, 2009, and the first recorded Bitcoin transaction between Satoshi Nakamoto and Hal Finney occurred on January 12, 2009."
+        "The paper was published on October 31, 2008, and is hosted by both Bitcoin.org and the Satoshi Nakamoto Institute as the original Bitcoin whitepaper.",
+        "Its core innovation is a peer-to-peer distributed timestamp server: transactions are grouped into blocks, hashed into a chain, and secured so history cannot be changed without redoing the accumulated proof-of-work.",
+        "The whitepaper specifies proof-of-work using SHA-256-style hashing, where miners search for a nonce producing a hash with the required zero bits; the valid chain is the one with the greatest cumulative proof-of-work.",
+        "The paper also introduces Simplified Payment Verification (SPV), describing how users can verify payments without running a full network node by relying on block headers and Merkle proofs."
       ],
       "sources": [
         {
-          "title": "Bitcoin | Definition, Mining, & Facts | Britannica Money",
-          "url": "https://www.britannica.com/topic/Bitcoin"
+          "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "url": "https://bitcoin.org/en/bitcoin-paper"
+        },
+        {
+          "title": "Bitcoin - Open source P2P money",
+          "url": "https://bitcoin.org/files/bitcoin-paper/bitcoin_en.pdf"
         },
         {
           "title": "Satoshi Nakamoto | Satoshi Nakamoto Institute",
           "url": "https://nakamotoinstitute.org/authors/satoshi-nakamoto/"
         },
         {
-          "title": "Bitcoin.org is 10 Years Old!",
-          "url": "https://bitcoin.org/en/posts/ten-year-anniversary"
-        },
-        {
-          "title": "2009 - Bitcoin Wiki",
-          "url": "https://en.bitcoin.it/wiki/2009"
-        },
-        {
-          "title": "Category:History - Bitcoin Wiki",
-          "url": "https://en.bitcoin.it/wiki/Category:History"
+          "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "url": "https://cdn.nakamotoinstitute.org/docs/bitcoin.pdf"
         }
       ]
     },
-    "Bitcoin as decentralized digital currency without central banks or intermediaries": {
-      "canonical": "Bitcoin as decentralized digital currency without central banks or intermediaries",
-      "summary": "Bitcoin is a decentralized digital currency designed to let payments move directly between users on a peer-to-peer network rather than through a central bank or financial institution. The original Bitcoin whitepaper describes it as 'a peer-to-peer electronic cash system,' and bitcoin.org explains that transaction processing and the issuance of new bitcoins are handled collectively by the network, with no central authority or bank controlling the system.",
+    "Bitcoin creation in 2008 by Satoshi Nakamoto": {
+      "canonical": "Bitcoin creation in 2008 by Satoshi Nakamoto",
+      "summary": "Search results confirm that Bitcoin’s concept was introduced in 2008 by the pseudonymous Satoshi Nakamoto through the white paper \"Bitcoin: A Peer-to-Peer Electronic Cash System.\" The project’s public footprint began in 2008 with the registration of bitcoin.org on August 18, 2008, while the white paper was released on October 31, 2008; the live network and software launch followed in January 2009.",
       "keyPoints": [
-        "The Bitcoin whitepaper frames the core idea as electronic payments sent 'directly from one party to another without going through a financial institution.'",
-        "Bitcoin.org states that Bitcoin 'uses peer-to-peer technology to operate with no central authority or banks,' meaning control is distributed across network participants rather than concentrated in a central intermediary.",
-        "Bitcoin is open-source and publicly auditable; bitcoin.org says its design is public, nobody owns or controls Bitcoin, and anyone can take part in the network.",
-        "In practice, Bitcoin's decentralization applies to the base network, while some wallet services may still rely on third-party servers for convenience, as shown by wallet descriptions on bitcoin.org."
+        "Bitcoin.org states that Satoshi Nakamoto’s original paper is the document that first introduced Bitcoin, confirming Nakamoto as the author of the foundational white paper.",
+        "Bitcoin.org’s 10-year anniversary post says the bitcoin.org domain was registered on August 18, 2008, and was originally owned by Satoshi Nakamoto and Martti Malmi.",
+        "History.com reports that Nakamoto released the Bitcoin white paper on October 31, 2008, presenting Bitcoin as a peer-to-peer electronic cash system.",
+        "Britannica notes that the 2008 paper introduced cryptocurrency to a wider audience, while the actual Bitcoin software and network were launched in 2009."
       ],
       "sources": [
         {
           "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
-          "url": "https://bitcoin.org/bitcoin.pdf"
+          "url": "https://bitcoin.org/en/bitcoin-paper"
         },
         {
-          "title": "Bitcoin - Open source P2P money",
-          "url": "https://bitcoin.org/whitepaper.pdf"
+          "title": "Bitcoin.org is 10 Years Old!",
+          "url": "https://bitcoin.org/en/posts/ten-year-anniversary"
         },
         {
-          "title": "Bitcoin - Open source P2P money",
-          "url": "https://bitcoin.org/en/contact-us"
+          "title": "Satoshi Nakamoto publishes a paper introducing Bitcoin | October 31, 2008 | HISTORY",
+          "url": "https://www.history.com/this-day-in-history/satoshi-nakamoto-publishes-a-paper-introducing-bitcoin"
         },
         {
-          "title": "Electrum - Desktop - Windows - Choose your wallet - Bitcoin",
-          "url": "https://bitcoin.org/en/wallets/desktop/windows/electrum/"
+          "title": "Satoshi Nakamoto | Definition, Bitcoin, & Facts | Britannica",
+          "url": "https://www.britannica.com/biography/Satoshi-Nakamoto"
+        },
+        {
+          "title": "Bitcoin | Definition, Mining, & Facts | Britannica Money",
+          "url": "https://www.britannica.com/money/Bitcoin"
         }
       ]
     },
-    "Bitcoin blockchain throughput around 7 transactions per second": {
-      "canonical": "Bitcoin blockchain throughput around 7 transactions per second",
-      "summary": "Search results support the concept that Bitcoin’s base-layer throughput is commonly approximated at about 7 transactions per second, but this is a simplified theoretical estimate rather than a fixed live rate. The estimate comes from Bitcoin’s roughly 10-minute block interval and historical 1 MB block-size limit, divided by an assumed average transaction size; depending on the transaction-size assumption, cited estimates range from about 3 TPS in practice to about 6.6-7 TPS theoretically.",
+    "Satoshi Nakamoto": {
+      "canonical": "Satoshi Nakamoto",
+      "summary": "Satoshi Nakamoto is the pseudonym used by the unknown person or group that created Bitcoin. Search results consistently link the name to the 2008 Bitcoin white paper and the first Bitcoin software release, while reporting that Nakamoto’s real identity remains unverified despite years of speculation and failed claims.",
       "keyPoints": [
-        "The Bitcoin Wiki Scalability FAQ gives a simple formula: TPS = block size / average transaction size / 600 seconds, and shows an example of 6.6 TPS using 1,000,000 bytes, 250-byte transactions, and 10-minute blocks.",
-        "The same FAQ says there was \"general agreement\" Bitcoin could handle about 3 TPS with the average transaction sizes observed at that time, while both older and newer estimates placed the pre-SegWit theoretical rate at about 7 TPS.",
-        "Bitcoin Wiki’s Block page states the network targets an average of 6 blocks per hour, i.e. about one block every 10 minutes, which is a core input to the throughput estimate.",
-        "A separate Bitcoin Wiki Scalability page explicitly states that the Bitcoin network was restricted to a sustained rate of 7 TPS due to the protocol’s 1 MB block-size restriction, reinforcing that the figure refers to base-layer capacity assumptions rather than guaranteed real-world throughput."
+        "Bitcoin.org hosts the original 2008 white paper, \"Bitcoin: A Peer-to-Peer Electronic Cash System,\" credited to Satoshi Nakamoto.",
+        "Major reporting and reference sources describe \"Satoshi Nakamoto\" as a pseudonym rather than a confirmed real-world identity, and no person has been conclusively proven to be Bitcoin’s creator.",
+        "A UK High Court ruling in March 2024 found that Craig Wright was not Satoshi Nakamoto, rejecting one of the highest-profile public identity claims.",
+        "Historical coverage notes that Nakamoto released the Bitcoin protocol/software and later withdrew from public communication, leaving the project to other developers."
       ],
       "sources": [
         {
-          "title": "Scalability FAQ - Bitcoin Wiki",
-          "url": "https://en.bitcoin.it/wiki/Scalability_FAQ"
+          "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "url": "https://bitcoin.org/en/bitcoin-paper"
         },
         {
-          "title": "Block - Bitcoin Wiki",
-          "url": "https://en.bitcoin.it/wiki/Block"
+          "title": "UK high court rules Australian computer scientist is not mysterious bitcoin founder as he claims",
+          "url": "https://apnews.com/article/2eb9005bfbb96e0b03c30cb2de6d7d2c"
         },
         {
-          "title": "Scalability - Bitcoin Wiki",
-          "url": "https://en.bitcoin.it/wiki/Scalability"
+          "title": "Who Created Bitcoin?",
+          "url": "https://www.nasdaq.com/articles/who-created-bitcoin-2019-01-03"
         },
         {
-          "title": "Confirmation - Bitcoin Wiki",
-          "url": "https://en.bitcoin.it/wiki/Confirmation"
+          "title": "Identity of Bitcoin's Mysterious Creator Revealed? | WIRED",
+          "url": "https://www.wired.com/2014/03/satoshi-nakamoto-identified/"
         }
       ]
     },
-    "Visa throughput around 24,000 transactions per second": {
-      "canonical": "Visa throughput around 24,000 transactions per second",
-      "summary": "The claim that Visa handles around 24,000 transactions per second is historically grounded but outdated as a description of Visa’s current network capacity. Older Visa materials state that VisaNet was capable of handling more than 24,000 transaction messages per second, while newer official Visa sources report substantially higher figures: more than 65,000 transactions per second in several sources, 76,000 transaction messages per second on a current merchant-facing page, and up to 83,000 transactions per second in a 2025 corporate article.",
+    "Bitcoin vs Visa transaction throughput": {
+      "canonical": "Bitcoin vs Visa transaction throughput",
+      "summary": "Search results support the general comparison that Bitcoin’s base-layer throughput is on the order of single-digit transactions per second, while Visa’s network capacity is orders of magnitude higher. Visa materials explicitly state Bitcoin handles around 7 TPS, and Visa states VisaNet can process more than 65,000 transaction messages per second, with newer Visa pages citing 76,000 or even up to 83,000 messages per second. So the common claim “Bitcoin ~7 TPS vs Visa ~24,000 TPS” is directionally correct, but the Visa figure is not stable across sources and is often stated today as higher network-message capacity rather than 24,000 settled payment transactions per second.",
       "keyPoints": [
-        "An official Visa technology booklet states Visa’s payments processing network was capable of handling more than 24,000 transaction messages per second, supporting the origin of the 24,000 TPS figure.",
-        "Visa’s 2016 Form 10-K says VisaNet is capable of handling more than 65,000 transactions per second, showing that official capacity figures increased well beyond 24,000.",
-        "A current Visa merchant page says VisaNet can process more than 76,000 transaction messages per second, indicating Visa now publicly cites a higher throughput figure.",
-        "A 2025 Visa corporate article says the network processes up to 83,000 transaction messages per second worldwide, suggesting Visa’s latest public figure is higher still."
+        "Visa’s own crypto research page says: “Bitcoin manages around 7 TPS,” using Bitcoin as a low-throughput comparison point against other payment systems.",
+        "Bitcoin Core documentation exposes a `getchaintxstats` RPC that reports `txrate`, i.e. the measured average transactions-per-second over a chosen on-chain window, which indicates throughput is an empirical chain statistic rather than a fixed protocol constant.",
+        "Visa sources commonly describe VisaNet capacity as more than 65,000 transaction messages per second; a U.S. Visa merchant page cites more than 76,000 messages per second, and a 2025 Visa corporate article says up to 83,000 messages per second worldwide.",
+        "Because Visa often reports transaction-message capacity, while Bitcoin comparisons usually refer to confirmed on-chain transactions, the numbers are not perfectly apples-to-apples."
       ],
       "sources": [
         {
-          "title": "The technology behind Visa",
-          "url": "https://usa.visa.com/dam/VCOM/download/corporate/media/visanet-technology/visa-net-booklet.pdf"
+          "title": "Visa Crypto Thought Leadership – A deep dive on Solana | Visa",
+          "url": "https://usa.visa.com/solutions/crypto/deep-dive-on-solana.html"
         },
         {
-          "title": "Visa 2016 Form 10-K",
-          "url": "https://investor.visa.com/files/doc_financials/2016/Q4/Visa-2016-Form-10K.pdf"
+          "title": "getchaintxstats — Bitcoin",
+          "url": "https://developer.bitcoin.org/reference/rpc/getchaintxstats.html"
         },
         {
-          "title": "Grow your business. Accept Visa payments.",
+          "title": "Grow your business. Accept Visa payments. | Visa",
           "url": "https://usa.visa.com/run-your-business/accept-visa-payments.html"
         },
         {
-          "title": "The heart of Visa: inside the engine of global commerce",
+          "title": "Inside Visa’s engine of global commerce | Visa",
           "url": "https://corporate.visa.com/en/sites/visa-perspectives/security-trust/inside-visa-global-commerce-engine.html.html"
+        },
+        {
+          "title": "Table of Contents",
+          "url": "https://investor.visa.com/files/doc_financials/2016/Q4/Visa-2016-Form-10K.pdf"
         }
       ]
     },
-    "Hash-linked blocks forming an immutable chain": {
-      "canonical": "Hash-linked blocks forming an immutable chain",
-      "summary": "A hash-linked block chain is the core data structure behind blockchain systems: each block stores its own data plus the cryptographic hash of the previous block, so blocks are ordered and tamper-evident. If data in an earlier block is changed, its hash changes, which breaks the link recorded in the next block and causes a cascading mismatch through later blocks. In practice, this makes the history effectively immutable only when combined with network replication and a consensus mechanism that rejects rewritten histories.",
+    "Bitcoin block reward schedule": {
+      "canonical": "Bitcoin block reward schedule",
+      "summary": "Bitcoin’s block reward schedule is a fixed issuance rule built into the Bitcoin protocol: the block subsidy began at 50 BTC per block in 2009 and is reduced by 50% every 210,000 blocks, which is approximately every four years. This declining subsidy is the main mechanism behind Bitcoin’s capped supply of roughly 21 million BTC, with issuance expected to taper toward zero around 2140. The most recent halving occurred at block 840,000 in April 2024, reducing the subsidy to 3.125 BTC per block.",
       "keyPoints": [
-        "NIST defines blockchain blocks as cryptographically linked to the previous block, making the ledger tamper-evident rather than silently editable.",
-        "IBM explains that a block typically includes a timestamp and data from the previous block in its hash, preserving the sequence and timing of transactions.",
-        "Because a block's hash depends on its contents, modifying an old block changes its hash and invalidates the stored previous-hash reference in every following block.",
-        "Immutability is not absolute from hashing alone; it depends on the wider system, especially distributed copies of the ledger and consensus rules that make replacing historical blocks difficult."
+        "Bitcoin launched with a 50 BTC block subsidy, and the subsidy halves every 210,000 blocks rather than on fixed calendar dates.",
+        "Past halving milestones occurred at block 210,000 in November 2012, block 420,000 in July 2016, block 630,000 in May 2020, and block 840,000 in April 2024.",
+        "Because Bitcoin targets an average block interval of about 10 minutes, 210,000 blocks works out to roughly four years, though exact halving dates vary.",
+        "The halving schedule causes total issuance to converge to about 21,000,000 BTC, with the subsidy expected to become negligible and effectively end around 2140."
       ],
       "sources": [
         {
-          "title": "Blockchain | NIST",
-          "url": "https://www.nist.gov/blockchain"
-        },
-        {
-          "title": "blockchain - Glossary | CSRC",
-          "url": "https://csrc.nist.gov/glossary/term/blockchain"
-        },
-        {
-          "title": "What Is Blockchain? | IBM",
-          "url": "https://www.ibm.com/think/topics/blockchain"
-        },
-        {
-          "title": "Blockchain",
-          "url": "https://en.wikipedia.org/wiki/Blockchain"
-        },
-        {
-          "title": "Draft NISTIR 8202",
-          "url": "https://csrc.nist.gov/CSRC/media/Publications/nistir/8202/draft/documents/nistir8202-draft.pdf"
-        }
-      ]
-    },
-    "Bitcoin block subsidy started at 50 BTC and halves about every four years": {
-      "canonical": "Bitcoin block subsidy started at 50 BTC and halves about every four years",
-      "summary": "Bitcoin’s block subsidy began at 50 BTC per block and is programmed to halve every 210,000 blocks, which is approximately every four years given Bitcoin’s ~10-minute block target. This schedule is encoded in Bitcoin’s protocol rules and is the basis for Bitcoin’s declining issuance toward a supply cap of just under 21 million BTC.",
-      "keyPoints": [
-        "The subsidy formula is height-based: `(50 * 100000000) >> (height / 210000)`, meaning the starting subsidy was 50 BTC and each 210,000-block interval cuts it in half.",
-        "The first halving occurred at block 210,000 on November 28, 2012, reducing the block subsidy from 50 BTC to 25 BTC.",
-        "Bitcoin Wiki’s protocol documentation lists subsequent halvings at blocks 420,000 and 630,000, reducing the subsidy to 12.5 BTC and then 6.25 BTC, confirming the repeating 210,000-block cadence.",
-        "Because blocks are targeted to arrive about every 10 minutes, 210,000 blocks works out to roughly four years, and the long-run issuance converges to slightly less than 21 million BTC."
-      ],
-      "sources": [
-        {
-          "title": "Protocol rules - Bitcoin Wiki",
-          "url": "https://en.bitcoin.it/wiki/Protocol_rules"
+          "title": "Controlled supply - Bitcoin Wiki",
+          "url": "https://en.bitcoin.it/wiki/Controlled_supply"
         },
         {
           "title": "Halving day 2012 - Bitcoin Wiki",
           "url": "https://en.bitcoin.it/wiki/Halving_day_2012"
         },
         {
-          "title": "Controlled supply - Bitcoin Wiki",
-          "url": "https://en.bitcoin.it/wiki/Controlled_supply"
+          "title": "Bitcoin protocol",
+          "url": "https://en.wikipedia.org/wiki/Bitcoin_protocol"
         },
         {
-          "title": "Block - Bitcoin Wiki",
-          "url": "https://en.bitcoin.it/wiki/Block"
+          "title": "Bitcoin",
+          "url": "https://en.wikipedia.org/wiki/Bitcoin"
         },
         {
-          "title": "BIP 0042 - Bitcoin Wiki",
-          "url": "https://en.bitcoin.it/wiki/BIP_0042"
+          "title": "Bitcoin's latest 'halving' has arrived. Here's what you need to know",
+          "url": "https://apnews.com/article/d6053474e647114220648902fb02be5a"
         }
       ]
     },
-    "Bitcoin Proof of Work consensus mechanism": {
-      "canonical": "Bitcoin Proof of Work consensus mechanism",
-      "summary": "Bitcoin uses a Proof of Work (PoW) consensus mechanism in which miners repeatedly hash block headers, varying a nonce and related fields, until they find a hash below the network’s current target. Nodes independently verify that proof and accept the valid chain with the most cumulative work, which helps order transactions, makes past blocks costly to rewrite, and keeps block production near one block about every 10 minutes through periodic difficulty adjustment.",
+    "Proof-of-Work mining process": {
+      "canonical": "Proof-of-Work mining process",
+      "summary": "In Bitcoin’s proof-of-work mining process, miners assemble a candidate block and repeatedly vary fields such as the nonce to compute block-header hashes until one hash is numerically below the network’s current target. This is expensive to produce but easy for other nodes to verify, and Bitcoin adjusts the target every 2,016 blocks to keep block production near one block every 10 minutes.",
       "keyPoints": [
-        "Bitcoin’s PoW is based on Hashcash and uses SHA-256; a block is valid only if its hash is less than the current target, making proof creation computationally expensive but verification easy.",
-        "The network adjusts mining difficulty to maintain a roughly 10-minute block interval; Bitcoin documentation and wiki sources describe this as an automatic retargeting process tied to the amount of total hash power on the network.",
-        "Each block commits to the previous block’s hash, so changing an older block requires redoing that block’s work and the work of all successor blocks, which is the core anti-tampering property of the blockchain.",
-        "Bitcoin nodes ultimately follow the most-work fully validated chain, not just any longest chain by block count; full nodes still enforce all consensus rules when validating blocks and transactions."
+        "A valid Bitcoin block must hash to a value below the current target; miners typically change the 32-bit nonce and other mutable block data to try new hashes.",
+        "Bitcoin uses the Hashcash-style proof-of-work system based on SHA-256 hashing, making block discovery a probabilistic trial-and-error process rather than solving a traditional algebraic puzzle.",
+        "Network difficulty is a measure of how hard it is to find a hash below the target, and Bitcoin retargets difficulty every 2,016 blocks.",
+        "Because each block includes the previous block’s hash, changing past data would require redoing the proof of work for that block and all of its successors."
       ],
       "sources": [
         {
@@ -231,115 +203,67 @@
           "url": "https://en.bitcoin.it/wiki/Proof_of_work"
         },
         {
-          "title": "Developer Guides — Bitcoin",
-          "url": "https://developer.bitcoin.org/devguide/"
+          "title": "Nonce - Bitcoin Wiki",
+          "url": "https://en.bitcoin.it/wiki/Nonce"
         },
         {
-          "title": "Getting Started — Bitcoin",
-          "url": "https://developer.bitcoin.org/index.html"
-        },
-        {
-          "title": "Bitcoin Core Validation",
-          "url": "https://bitcoin.org/en/bitcoin-core/features/validation"
-        },
-        {
-          "title": "getblockchaininfo — Bitcoin",
-          "url": "https://developer.bitcoin.org/reference/rpc/getblockchaininfo.html"
-        }
-      ]
-    },
-    "Miners compete to solve cryptographic puzzles": {
-      "canonical": "Miners compete to solve cryptographic puzzles",
-      "summary": "In Bitcoin, miners do compete to solve a cryptographic proof-of-work puzzle, but the puzzle is not solving arbitrary math problems. They repeatedly hash block data with different nonce values until they find a SHA-256 hash that meets the network’s current difficulty target; the first valid block is broadcast, verified by other nodes, and added to the chain. This mechanism helps order transactions, makes rewriting history expensive, and lets the network reach consensus without a central authority.",
-      "keyPoints": [
-        "Satoshi Nakamoto’s white paper describes Bitcoin’s proof-of-work as scanning for a value that, when hashed with SHA-256, produces a hash with the required number of leading zero bits.",
-        "The white paper says each node collects transactions into a block and works on finding a difficult proof-of-work; when a node finds one, it broadcasts the block and other nodes accept it if the transactions are valid.",
-        "Bitcoin.org’s glossary explains that mining is used to confirm transactions and increase security, and that mining is a specialized, competitive market where rewards are tied to how much computation is performed.",
-        "The same glossary states that hash rate measures the Bitcoin network’s processing power; for example, 10 TH/s means 10 trillion hash calculations per second."
-      ],
-      "sources": [
-        {
-          "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
-          "url": "https://bitcoin.org/bitcoin.pdf"
-        },
-        {
-          "title": "Vocabulary - Bitcoin",
-          "url": "https://bitcoin.org/en/vocabulary"
-        },
-        {
-          "title": "Developer Guide - Bitcoin",
-          "url": "https://developer.bitcoin.org/devguide/block_chain.html"
-        }
-      ]
-    },
-    "Block reward for adding the next block": {
-      "canonical": "Block reward for adding the next block",
-      "summary": "In Bitcoin, miners compete to find a valid proof-of-work for the next block. The miner whose block is accepted by the network appends that block to the blockchain and can claim the block reward through the block’s coinbase transaction. That reward consists of newly created bitcoin (the block subsidy) plus any transaction fees included in the block.",
-      "keyPoints": [
-        "Bitcoin mining is a competitive proof-of-work process: miners must find a block that satisfies strict cryptographic rules before the network will accept it.",
-        "The successful miner claims the reward in the block’s coinbase transaction; Bitcoin documentation describes mining rewards as newly created bitcoins together with transaction fees.",
-        "Bitcoin.org explains that mining acts like a competitive lottery, helping enforce blockchain ordering and making it hard for any one participant to add blocks consecutively or rewrite history.",
-        "Bitcoin targets an average of about one new block every 10 minutes by automatically adjusting mining difficulty as more or fewer miners participate."
-      ],
-      "sources": [
-        {
-          "title": "How does Bitcoin work? - Bitcoin",
-          "url": "https://bitcoin.org/en/how-it-works"
-        },
-        {
-          "title": "Mining — Bitcoin Developer Guide",
-          "url": "https://developer.bitcoin.org/devguide/mining.html"
-        },
-        {
-          "title": "Vocabulary - Bitcoin",
-          "url": "https://bitcoin.org/en/vocabulary"
+          "title": "Difficulty - Bitcoin Wiki",
+          "url": "https://en.bitcoin.it/wiki/Difficulty"
         },
         {
           "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
-          "url": "https://bitcoin.org/bitcoin.pdf"
+          "url": "https://bitcoin.org/en/bitcoin-paper"
+        },
+        {
+          "title": "Getting Started — Bitcoin Developer Documentation",
+          "url": "https://developer.bitcoin.org/"
         }
       ]
     },
-    "Ethereum proposed by Vitalik Buterin in 2013 and launched in 2015": {
-      "canonical": "Ethereum proposed by Vitalik Buterin in 2013 and launched in 2015",
-      "summary": "Search results support the core claim with a small date nuance: Vitalik Buterin first drafted Ethereum’s concept in late 2013, while the public whitepaper and broader public announcement appeared in early 2014. Ethereum’s mainnet officially launched on July 30, 2015, when the Frontier release created the genesis block. In short, it is accurate to say Ethereum was conceived/proposed by Buterin in 2013 and launched in 2015.",
+    "Ethereum proposal and launch timeline": {
+      "canonical": "Ethereum proposal and launch timeline",
+      "summary": "Ethereum was conceived by Vitalik Buterin in late 2013, when he drafted the initial whitepaper outlining a generalized blockchain for smart contracts and decentralized applications. The project was announced publicly in January 2014, funded through an ether sale in July–August 2014, and officially launched on July 30, 2015 with the Genesis block and the Frontier release.",
       "keyPoints": [
-        "Vitalik Buterin wrote the initial draft of the Ethereum whitepaper in November 2013, according to the Ethereum Foundation blog.",
-        "Ethereum’s introductory whitepaper was published before launch and describes the project as an open platform for decentralized applications and smart contracts.",
-        "The Ethereum network officially launched on July 30, 2015, with the Frontier mainnet release and mining of the genesis block.",
-        "Ethereum development between proposal and launch included public fundraising in 2014 and multiple proof-of-concept releases before mainnet."
+        "Vitalik Buterin said he wrote the initial draft of the Ethereum whitepaper in November 2013, and ethereum.org states the introductory paper was published in 2013 before launch in 2015.",
+        "Ethereum was presented publicly in January 2014; Buterin's \"Ethereum: Now Going Public\" post on January 23, 2014 described the project and its goals as a next-generation smart-contract platform.",
+        "To fund development, the founding team ran a public ether sale in July–August 2014, raising about 31,000 BTC, according to ethereum.org's history page.",
+        "Ethereum officially launched on July 30, 2015, when the Genesis block was mined and Frontier, the first live release of the network, went live."
       ],
       "sources": [
+        {
+          "title": "History of Ethereum: founder, launch and ownership | ethereum.org",
+          "url": "https://ethereum.org/yo/ethereum-history-founder-and-ownership/"
+        },
+        {
+          "title": "Ethereum Launches | Ethereum Foundation Blog",
+          "url": "https://blog.ethereum.org/2015/07/30/ethereum-launches"
+        },
         {
           "title": "Ethereum: Now Going Public | Ethereum Foundation Blog",
           "url": "https://blog.ethereum.org/2014/01/23/ethereum-now-going-public"
-        },
-        {
-          "title": "Ethereum Whitepaper | ethereum.org",
-          "url": "https://ethereum.org/nb/whitepaper/"
-        },
-        {
-          "title": "History of Ethereum: founder, launch and ownership | ethereum.org",
-          "url": "https://ethereum.org/sr/ethereum-history-founder-and-ownership/"
         },
         {
           "title": "Mihai’s Ethereum Project Update. The First Year. | Ethereum Foundation Blog",
           "url": "https://blog.ethereum.org/2015/03/14/ethereum-the-first-year"
         },
         {
-          "title": "Who Created the Ethereum Ecosystem? | CoinDesk",
-          "url": "https://www.coindesk.com/markets/2021/03/23/who-created-the-ethereum-ecosystem"
+          "title": "History and Forks of Ethereum | ethereum.org",
+          "url": "https://ethereum.org/cs/history/"
+        },
+        {
+          "title": "Ethereum Whitepaper | ethereum.org",
+          "url": "https://ethereum.org/nb/whitepaper/"
         }
       ]
     },
-    "Smart contracts as self-executing programs on the blockchain that enforce agreements when conditions are met": {
-      "canonical": "Smart contracts as self-executing programs on the blockchain that enforce agreements when conditions are met",
-      "summary": "Smart contracts are programs made up of code and data that are deployed to a blockchain and executed by network nodes. They automatically enforce predefined rules or actions when specified conditions are met, with execution results recorded on the blockchain. On platforms such as Ethereum, they function as accounts at specific addresses, can hold state and assets, and typically execute deterministically so all participating nodes reach the same result.",
+    "Smart contract": {
+      "canonical": "Smart contract",
+      "summary": "A smart contract is a blockchain-deployed program made up of code and data that executes on network nodes and records the results on-chain. In practice, smart contracts are used to automatically enforce predefined rules or conditions—often using simple if/then logic—so transactions or workflow steps can occur without relying on a central intermediary. On platforms such as Ethereum, they run exactly as programmed, and interactions are generally irreversible once executed.",
       "keyPoints": [
-        "NIST defines a smart contract as a collection of code and data deployed via cryptographically signed transactions on a blockchain; it is executed by blockchain nodes, and the results are recorded on-chain.",
-        "Ethereum’s documentation says smart contracts are programs that run on the Ethereum blockchain, reside at a specific address, and can automatically enforce rules through code rather than human intervention.",
-        "NIST notes smart contracts must be deterministic: given the same input, nodes executing the contract must produce the same output and agree on the resulting state.",
-        "Ethereum explains their main benefit as automatic, predictable execution of unambiguous logic when conditions are met, which can reduce reliance on trusted intermediaries."
+        "NIST defines a smart contract as a collection of code and data deployed via cryptographically signed blockchain transactions; nodes execute it and must derive the same result, which is then recorded on the blockchain.",
+        "Ethereum’s documentation describes smart contracts as programs on the Ethereum blockchain that can define rules and automatically enforce them via code; they reside at a specific blockchain address and are triggered by transactions.",
+        "IBM explains that smart contracts typically execute when predefined conditions are met, often following if/then rules, and can automate actions such as releasing funds, issuing tickets, or advancing a workflow.",
+        "Because blockchain execution must be deterministic across nodes, smart contracts are designed so the same input produces the same output; external data sources used by contracts are commonly referred to as oracles."
       ],
       "sources": [
         {
@@ -347,59 +271,67 @@
           "url": "https://csrc.nist.gov/glossary/term/Smart_contract"
         },
         {
-          "title": "NISTIR 8202: Blockchain Technology Overview",
-          "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/nist.ir.8202.pdf"
+          "title": "Blockchain | NIST",
+          "url": "https://www.nist.gov/blockchain"
         },
         {
           "title": "Introduction to smart contracts | ethereum.org",
-          "url": "https://ethereum.org/bg/developers/docs/smart-contracts/"
+          "url": "https://ethereum.org/gl/developers/docs/smart-contracts/"
         },
         {
           "title": "Smart contracts: What are they and their benefits | ethereum.org",
           "url": "https://ethereum.org/fil/smart-contracts/"
+        },
+        {
+          "title": "Was sind Smart Contracts in einer Blockchain? | IBM",
+          "url": "https://www.ibm.com/de-de/topics/smart-contracts"
+        },
+        {
+          "title": "NIST CYBERSECURITY WHITE PAPER",
+          "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01142020.pdf"
         }
       ]
     },
-    "Ethereum energy consumption reduced by ~99.95% after The Merge": {
-      "canonical": "Ethereum energy consumption reduced by ~99.95% after The Merge",
-      "summary": "Search results support the core claim: after The Merge on September 15, 2022, Ethereum’s switch from proof-of-work to proof-of-stake cut the network’s energy consumption by roughly 99.95% or more. The Ethereum Foundation’s public materials repeatedly state an approximately 99.95% reduction, while Ethereum.org’s energy page cites CCRI estimates of more than 99.988%, indicating the Foundation claim is directionally accurate and slightly conservative relative to some later estimates.",
+    "Ethereum energy consumption reduced by approximately 99.95%": {
+      "canonical": "Ethereum energy consumption reduced by approximately 99.95%",
+      "summary": "Official Ethereum documentation states that The Merge—Ethereum’s transition from proof-of-work to proof-of-stake completed on September 15, 2022—reduced the network’s energy consumption by about 99.95%. The claim is widely repeated in Ethereum roadmap materials and is consistent with later analyses and academic studies that estimate roughly 99.95% to 99.98% lower energy use after the shift to proof-of-stake.",
       "keyPoints": [
-        "Ethereum.org’s The Merge documentation states that The Merge reduced Ethereum’s energy consumption by approximately 99.95% after transitioning the network from proof-of-work to proof-of-stake.",
-        "Ethereum.org’s energy-consumption page currently estimates Ethereum’s total network electricity use at about 0.0026 TWh per year and says CCRI estimated The Merge reduced annualized electricity consumption by more than 99.988%.",
-        "Independent and secondary sources broadly align with the claim: an arXiv event-study result reports a 99.98% reduction, and The Block summarized Digiconomist estimates showing annual energy use falling from about 80 TWh to roughly 0.01 TWh after The Merge.",
-        "The number is best treated as an estimate rather than a precise measured constant: Ethereum.org notes its energy statistics are based on publicly available data and are not an official promise or statement from the Ethereum Foundation."
+        "Ethereum.org’s The Merge and roadmap pages explicitly say the upgrade reduced Ethereum’s energy consumption by approximately 99.95%.",
+        "The Merge was the transition from proof-of-work to proof-of-stake, completed on September 15, 2022, replacing mining-based consensus with validator staking.",
+        "Ethereum.org’s energy-consumption page says its post-Merge estimates are based on a Crypto Carbon Ratings Institute study, providing an official methodological basis for the lower energy-use claim.",
+        "Independent research broadly supports the magnitude of the reduction: academic studies found post-Merge energy consumption fell by about 99.98% or 99.95%, depending on methodology."
       ],
       "sources": [
         {
           "title": "The Merge | ethereum.org",
-          "url": "https://ethereum.org/am/roadmap/merge/"
-        },
-        {
-          "title": "Ethereum Energy Consumption | ethereum.org",
-          "url": "https://ethereum.org/am/energy-consumption/"
+          "url": "https://ethereum.org/vi/roadmap/merge/"
         },
         {
           "title": "Ethereum roadmap | ethereum.org",
           "url": "https://ethereum.org/gl/roadmap/"
         },
         {
+          "title": "Ethereum Energy Consumption | ethereum.org",
+          "url": "https://ethereum.org/he/energy-consumption/"
+        },
+        {
           "title": "An Event Study of the Ethereum Transition to Proof-of-Stake",
           "url": "https://arxiv.org/abs/2210.13655"
         },
         {
-          "title": "Five key ways The Merge affected the Ethereum blockchain | The Block",
-          "url": "https://www.theblock.co/post/177704/five-key-ways-the-merge-affected-the-ethereum-blockchain"
+          "title": "Empirical Analysis of EIP-3675: Miner Dynamics, Transaction Fees, and Transaction Time",
+          "url": "https://arxiv.org/abs/2403.17885"
         }
       ]
     },
-    "Ethereum The Merge transition to Proof of Stake in September 2022": {
-      "canonical": "Ethereum The Merge transition to Proof of Stake in September 2022",
-      "summary": "Ethereum’s “The Merge” was the network upgrade that completed Ethereum’s transition from Proof of Work to Proof of Stake on September 15, 2022. It joined Ethereum Mainnet’s execution layer with the Beacon Chain, Ethereum’s PoS consensus layer, ending energy-intensive mining while preserving the chain’s full transaction history and existing account state.",
+    "Ethereum's transition from Proof of Work to Proof of Stake": {
+      "canonical": "Ethereum's transition from Proof of Work to Proof of Stake",
+      "summary": "The Merge was Ethereum’s network upgrade that changed its consensus mechanism from Proof of Work to Proof of Stake on September 15, 2022. It combined Ethereum’s original mainnet with the Beacon Chain, a separate Proof of Stake chain launched earlier, ending ETH mining and replacing miners with validators who stake ETH to help secure the network. Official Ethereum documentation says the transition reduced Ethereum’s energy use by about 99.95%.",
       "keyPoints": [
-        "The Ethereum Foundation and ethereum.org state that The Merge was executed on September 15, 2022, officially replacing Proof of Work with Proof of Stake.",
-        "The transition happened in two stages: the Bellatrix upgrade on September 6, 2022, followed by the Paris upgrade, which triggered when Terminal Total Difficulty reached 58750000000000000000000.",
-        "Ethereum.org says The Merge reduced Ethereum’s energy consumption by about 99.95%.",
-        "After The Merge, Ethereum full nodes required both a consensus-layer client and an execution-layer client; users’ funds, wallets, and on-chain history were unchanged."
+        "The Merge was executed on September 15, 2022, when Ethereum mainnet merged with the Beacon Chain and completed the move from PoW to PoS.",
+        "Ethereum’s Beacon Chain, the PoS consensus layer that later merged with mainnet, launched on December 1, 2020.",
+        "After the transition, Ethereum no longer relied on mining; block production and network security shifted to validators operating under the Proof of Stake system.",
+        "Ethereum.org reports that the move to Proof of Stake reduced the network’s energy consumption by roughly 99.95%."
       ],
       "sources": [
         {
@@ -407,171 +339,91 @@
           "url": "https://ethereum.org/am/roadmap/merge/"
         },
         {
-          "title": "Mainnet Merge Announcement | Ethereum Foundation Blog",
-          "url": "https://blog.ethereum.org/2022/08/24/mainnet-merge-announcement"
+          "title": "Ethereum switches to proof-of-stake consensus after completing The Merge | TechCrunch",
+          "url": "https://techcrunch.com/2022/09/15/ethereum-switches-to-proof-of-stake-consensus-after-completing-the-merge/"
         },
         {
-          "title": "The Beacon Chain | ethereum.org",
-          "url": "https://ethereum.org/am/roadmap/beacon-chain/"
+          "title": "Explore the Merge with Consensys",
+          "url": "https://consensys.io/merge"
         },
         {
-          "title": "Frequently Asked Questions | ethereum.org",
-          "url": "https://ethereum.org/nb/developers/docs/consensus-mechanisms/pos/faqs/"
-        },
-        {
-          "title": "How The Merge impacted ETH supply | ethereum.org",
-          "url": "https://ethereum.org/am/roadmap/merge/issuance/"
+          "title": "Ethereum Proof-of-Stake Consensus Layer: Participation and Decentralization",
+          "url": "https://arxiv.org/abs/2306.10777"
         }
       ]
     },
-    "Total value locked in DeFi protocols peak": {
-      "canonical": "Total value locked in DeFi protocols peak",
-      "summary": "Search results support the concept that DeFi total value locked (TVL) reached its cycle peak in late 2021, with widely cited trackers and reports placing the high above $180 billion and, under broader multi-chain methodologies, above $200 billion. The exact peak varies by source because TVL depends on methodology, chain coverage, token pricing, and potential double counting across protocols.",
+    "DeFi TVL peak and decline in 2021": {
+      "canonical": "DeFi TVL peak and decline in 2021",
+      "summary": "Search results support the concept that DeFi total value locked (TVL) reached an all-time high in late 2021—commonly cited around $180 billion to $189 billion in November 2021, though some sources report higher figures depending on methodology and whether categories such as liquid staking or broader protocol sets are included. Multiple sources also confirm a sharp subsequent decline through 2022 and 2023, with TVL falling roughly 75% to 80% from that late-2021 peak amid the broader crypto bear market and major market shocks such as the Terra/Luna collapse.",
       "keyPoints": [
-        "The Block reported on October 13, 2021 that DeFiLlama showed DeFi TVL had exceeded $200 billion across multiple blockchains, confirming that the market had already moved above the '$180 billion' threshold in late 2021.",
-        "CoinGecko's 2021 Year End Report stated that TVL in DeFi protocols rose to about $234 billion by year-end 2021, indicating the late-2021 peak was substantially higher than $180 billion under its reporting scope.",
-        "Academic work on DeFi measurement identified peak DeFi activity on December 2, 2021 and found large double counting effects in TVL, showing why published peak figures can differ materially across sources.",
-        "A glossary definition from CoinGecko describes TVL as the value of assets staked or secured in DeFi protocols, which explains why the metric is used to describe the size of DeFi but also why differences in calculation matter."
+        "Cointelegraph, citing DefiLlama, reported DeFi TVL hit a record of about $189 billion in November 2021 and later noted an approximately 80% drop to about $37 billion by October 2023.",
+        "A Queen's University economics working paper states DeFi TVL peaked around $180 billion in late 2021, aligning with the query's framing.",
+        "Some reports and papers cite higher late-2021 peaks—such as about $200 billion, $228 billion, or even $260 billion—showing that TVL peak estimates vary by data source, chain coverage, and inclusion criteria.",
+        "Regulatory and academic sources also describe a severe contraction after the peak, with one source noting DeFi TVL fell to roughly $80 billion by January 2023 and others highlighting the impact of the May 2022 Terra/Luna collapse."
       ],
       "sources": [
         {
-          "title": "Decentralized finance is now a $200 billion industry | The Block",
-          "url": "https://www.theblock.co/amp-render/post/120379"
+          "title": "DeFi TVL reaches $100B as Bitcoin pumps sentiment",
+          "url": "https://cointelegraph.com/news/defi-tvl-reaches-100b-bitcoin-pumps-sentiment"
         },
         {
-          "title": "CoinGecko 2021 Year End Cryptocurrency Report",
-          "url": "https://assets.coingecko.com/reports/2021-Year-End-Report/CoinGecko-2021-Report.pdf"
+          "title": "DeFi is ‘waking up again’ — Active loans return to 2022 levels",
+          "url": "https://cointelegraph.com/news/defi-is-waking-up-again-active-loans-return-to-2022-levels"
         },
         {
-          "title": "Piercing the Veil of TVL: DeFi Reappraised",
-          "url": "https://arxiv.org/abs/2404.11745"
+          "title": "Queen's Economics Department Working Paper No. 1509",
+          "url": "https://www.econ.queensu.ca/sites/econ.queensu.ca/files/wpaper/qed_wp_1509.pdf"
         },
         {
-          "title": "Definition of Total Value Locked | CoinGecko",
-          "url": "https://www.coingecko.com/en/glossary/total-value-locked"
+          "title": "2 2023 Digital Asset Outlook",
+          "url": "https://www.tbstat.com/wp/uploads/2022/12/Digital-Asset-2023-Outlook.pdf"
+        },
+        {
+          "title": "DECENTRALISED FINANCE (DEFI)",
+          "url": "https://www.amf-france.org/sites/institutionnel/files/private/2023-06/AMF%2520Discussion%2520Paper%2520on%2520Decentralised%2520Finance%2520VEN.pdf"
         }
       ]
     },
-    "Decentralized finance (DeFi) applications": {
-      "canonical": "Decentralized finance (DeFi) applications",
-      "summary": "Decentralized finance (DeFi) applications are blockchain-based financial services, typically implemented through smart contracts, that let users access functions such as lending, borrowing, trading, payments, and insurance without relying on a traditional central intermediary like a bank or broker. Sources consistently describe DeFi as operating on decentralized platforms and enabling peer-to-peer or automated transactions, though regulators note there is no single universally accepted definition and that some intermediating functions can still exist in practice.",
+    "Uniswap pioneered the automated market maker model and launched in 2018": {
+      "canonical": "Uniswap pioneered the automated market maker model and launched in 2018",
+      "summary": "Search results support the concept. Uniswap v1 launched on Ethereum in November 2018, and multiple sources describe it as pioneering the automated market maker (AMM) approach for decentralized token trading. Uniswap replaced order books with smart-contract liquidity pools and the constant-product formula, helping establish the AMM model as a core design for DeFi exchanges.",
       "keyPoints": [
-        "The Federal Reserve defines DeFi as emerging financial products and services on decentralized platforms using blockchains, including payments, lending and borrowing, trading, investments, crowdfunding, and insurance.",
-        "The U.S. Treasury says decentralized platforms can let users trade crypto-assets and engage in lending and borrowing, while also noting there is no generally accepted definition of DeFi and that validators/miners still play important roles.",
-        "Industry and educational sources describe DeFi applications as using smart contracts to automate services such as lending, borrowing, and trading without paperwork or a conventional third-party institution.",
-        "Common DeFi application categories include decentralized exchanges for trading and lending protocols such as Aave, Compound, and Maker-type systems that allow crypto-backed borrowing or interest-earning deposits."
+        "Uniswap v1 launched on Ethereum mainnet in November 2018; one source specifies November 2, 2018 as the v1 launch date.",
+        "Uniswap’s own educational material says the Uniswap Protocol pioneered the AMM model for decentralized exchanges.",
+        "Instead of a traditional order book, Uniswap used liquidity pools and a constant-product pricing formula (x * y = k) to price trades automatically.",
+        "Later coverage describes Uniswap v1 as a proof of concept that helped popularize AMM-based decentralized exchanges and influenced the broader DeFi ecosystem."
       ],
       "sources": [
-        {
-          "title": "Decentralized Finance (DeFi): Transformative Potential & Associated Risks",
-          "url": "https://www.federalreserve.gov/econres/feds/decentralized-finance-defi-transformative-potential-and-associated-risks.htm"
-        },
-        {
-          "title": "Crypto-Assets: Implications for Consumers, Investors, and Businesses",
-          "url": "https://home.treasury.gov/system/files/136/CryptoAsset_EO5.pdf"
-        },
-        {
-          "title": "What is DeFi?",
-          "url": "https://www.coinbase.com/public-policy/advocacy/documents/what-is-defi"
-        },
-        {
-          "title": "A Review on Decentralized Finance Ecosystems",
-          "url": "https://www.mdpi.com/1999-5903/16/3/76"
-        },
-        {
-          "title": "What is Decentralized Finance (DeFi)? A Beginner’s Guide",
-          "url": "https://www.webopedia.com/crypto/learn/what-is-defi-decentralized-finance/"
-        },
-        {
-          "title": "Decentralized Finance (DeFi): Potential and Risks",
-          "url": "https://www.atlantafed.org/research-and-data/publications/policy-hub-macroblog/2022/10/18/decentralized-finance-defi-potential-and-risks"
-        }
-      ]
-    },
-    "Post-2021 decline in DeFi total value locked": {
-      "canonical": "Post-2021 decline in DeFi total value locked",
-      "summary": "Search results confirm that DeFi total value locked (TVL) fell sharply after its late-2021 peak and stayed depressed through 2022 and 2023. Multiple sources attribute the decline to the broader crypto bear market, falling token prices, capital withdrawals, and major ecosystem shocks such as Terra/UST’s collapse in May 2022. Research also suggests the 2021 peak was partly overstated because TVL can double-count leveraged and wrapped assets, which made the downturn appear even steeper when prices fell.",
-      "keyPoints": [
-        "DefiLlama’s current analytics pages and historical references in other reports indicate DeFi TVL peaked around late 2021, with many later comparisons measuring large declines from that high-water mark.",
-        "CoinGecko’s Q2 2022 report says Ethereum’s overall TVL was still 52% lower quarter-over-quarter, while Terra’s TVL collapsed to about $21M by end-June 2022 after the UST/LUNA failure.",
-        "Chainalysis reports that DeFi TVL was down throughout 2023, following a sharp decrease in mid-2022, linking the lower TVL environment to reduced overall DeFi activity.",
-        "An April 2024 academic paper argues TVL overstated DeFi’s size at the December 2, 2021 peak: it estimates a $139.87B gap between TVL and a stricter 'total value redeemable' measure, showing how double counting amplified apparent growth and later decline."
-      ],
-      "sources": [
-        {
-          "title": "Chain Rankings by TVL - Blockchain DeFi Analytics - DefiLlama",
-          "url": "https://defillama.com/chains"
-        },
-        {
-          "title": "Industry Metrics - DeFi Analytics Dashboard - DefiLlama",
-          "url": "https://defillama.com/metrics"
-        },
-        {
-          "title": "Q2 2022 Cryptocurrency Report",
-          "url": "https://www.coingecko.com/research/publications/q2-2022-cryptocurrency-report"
-        },
-        {
-          "title": "2022 Annual Crypto Industry Report | CoinGecko",
-          "url": "https://www.coingecko.com/research/publications/2022-annual-crypto-report"
-        },
-        {
-          "title": "Stolen Crypto Falls in 2023, but Hacking Remains a Threat",
-          "url": "https://www.chainalysis.com/blog/crypto-hacking-stolen-funds-2024/"
-        },
-        {
-          "title": "Piercing the Veil of TVL: DeFi Reappraised",
-          "url": "https://arxiv.org/abs/2404.11745"
-        }
-      ]
-    },
-    "Uniswap pioneered the automated market maker (AMM) model": {
-      "canonical": "Uniswap pioneered the automated market maker (AMM) model",
-      "summary": "Search results do not support the strongest form of the claim that Uniswap was the first AMM or the first AMM-based DEX. Uniswap, launched in November 2018, is widely described by its own materials as having pioneered or popularized a specific AMM design on Ethereum—especially the simple constant-product model used in Uniswap v1—but sources indicate earlier AMM systems existed before it. Bancor states it launched an AMM network in June 2017 and describes itself as the first fully decentralized AMM-powered exchange, while broader historical sources trace automated market maker ideas back even earlier in academic and prediction-market contexts.",
-      "keyPoints": [
-        "Uniswap launched in November 2018 and its founder says he implemented an automated market maker after being inspired by Vitalik Buterin’s writings; Uniswap specifically popularized the x*y=k constant-product AMM on Ethereum.",
-        "Uniswap’s own current materials say the protocol 'pioneered' or 'introduced a new way' to exchange assets with AMMs, but these claims are best read as pioneering a major AMM implementation and helping standardize the model, not inventing AMMs from scratch.",
-        "Bancor documentation says Bancor launched in June 2017 and created the first-ever network of AMMs on blockchain, making it earlier than Uniswap as an onchain AMM exchange.",
-        "Historical references outside Uniswap and Bancor show automated market maker concepts predate both projects, including earlier academic work on AMMs and constant-function market makers."
-      ],
-      "sources": [
-        {
-          "title": "About Uniswap Labs",
-          "url": "https://about.uniswap.org/"
-        },
         {
           "title": "What is an Automated Market Maker?",
           "url": "https://blog.uniswap.org/what-is-an-automated-market-maker"
         },
         {
-          "title": "A Short History of Uniswap",
-          "url": "https://blog.uniswap.org/uniswap-history"
+          "title": "What Is Uniswap? | CoinMarketCap",
+          "url": "https://coinmarketcap.com/academy/article/uniswap-launches-v4-what-you-need-to-know"
         },
         {
-          "title": "Liquidity Pools | Bancor V3 Technical Docs",
-          "url": "https://docs.bancor.network/about-bancor-network/faqs/liquidity-pools"
+          "title": "How Uniswap Became King of DEXs",
+          "url": "https://www.coindesk.com/markets/2020/07/22/how-uniswap-became-king-of-dexs"
         },
         {
-          "title": "AMM: Automated Market Maker | Bancor Docs",
-          "url": "https://support.bancor.network/bancor-amm/amm-automated-market-maker"
+          "title": "Uniswap v2 Mainnet Launch",
+          "url": "https://blog.uniswap.org/launch-uniswap-v2"
         },
         {
-          "title": "Constant function market maker",
-          "url": "https://en.wikipedia.org/wiki/Constant_function_market_maker"
-        },
-        {
-          "title": "Uniswap and automated market makers, explained",
-          "url": "https://cointelegraph.com/explained/uniswap-and-automated-market-makers-explained//"
+          "title": "From V1 to V3: How Uniswap Maintains Its Lead In The DEX Space",
+          "url": "https://pexx.com/chaindebrief/how-uniswap-dex-maintains-its-lead/"
         }
       ]
     },
-    "Uniswap trading volume over $1.8 trillion since launch": {
-      "canonical": "Uniswap trading volume over $1.8 trillion since launch",
-      "summary": "The claim is directionally correct but outdated. Official Uniswap sources now state that the Uniswap Protocol has processed over $3 trillion in cumulative trading volume since launch in 2018, so saying it has processed over $1.8 trillion was true at an earlier point in time but understates the current total.",
+    "Uniswap has processed over $1.8 trillion in trading volume since launch": {
+      "canonical": "Uniswap has processed over $1.8 trillion in trading volume since launch",
+      "summary": "The claim is directionally correct but outdated. Official Uniswap materials show the protocol has processed far more than $1.8 trillion in cumulative trading volume since launch: Uniswap Labs says it has processed over $3 trillion to date, while an earlier official blog post said it had already reached $1.2 trillion by early 2023. Additional official and regulatory-source materials place cumulative volume above $1.5 trillion by 2023, indicating that 'over $1.8 trillion since launch' was plausible at some point but understates Uniswap’s current lifetime volume.",
       "keyPoints": [
-        "Uniswap Labs’ current About page says the protocol has processed over $3 trillion in trading volume since launch in 2018.",
-        "An earlier Uniswap Labs blog post from November 2021 said the protocol had supported $1.2 trillion in trading volume to date, showing the cumulative total has grown substantially over time.",
-        "A Uniswap Governance report for April 2024 recorded $77.48 billion in monthly protocol volume, indicating continued large-scale activity across chains.",
-        "Uniswap’s September 2020 UNI announcement reported over $20 billion in volume in less than two years, providing an early benchmark for how cumulative volume expanded from launch."
+        "Uniswap Labs’ official 'About' page says the Uniswap Protocol has processed over $3 trillion in trading volume to date.",
+        "An official Uniswap blog post from early 2023 stated the protocol had supported $1.2 trillion in trading volume by then, showing rapid growth before later milestones.",
+        "A 2023 SEC comment letter referencing the protocol said cumulative volumes in 2023 exceeded $1.5 trillion across 6.5 million wallet addresses.",
+        "Uniswap governance reporting for April 2024 cited $77.48 billion in monthly protocol volume, consistent with continued growth beyond the $1.8 trillion lifetime threshold."
       ],
       "sources": [
         {
@@ -583,95 +435,159 @@
           "url": "https://blog.uniswap.org/bringing-web3-to-everyone"
         },
         {
+          "title": "June 13, 2023 SEC comment letter PDF",
+          "url": "https://www.sec.gov/comments/s7-02-22/s70222-204699-411503.pdf"
+        },
+        {
           "title": "April ‘24 Uniswap Report - Uniswap Governance",
           "url": "https://gov.uniswap.org/t/april-24-uniswap-report/23922"
-        },
-        {
-          "title": "Introducing UNI",
-          "url": "https://blog.uniswap.org/uni"
         }
       ]
     },
-    "Uniswap launch year (2018)": {
-      "canonical": "Uniswap launch year (2018)",
-      "summary": "Search results verify that Uniswap launched in 2018, with official Uniswap sources stating that Uniswap v1 launched in November 2018. Multiple secondary sources further specify the Ethereum mainnet launch date as November 2, 2018, and identify Hayden Adams as the creator.",
+    "Automated market maker model": {
+      "canonical": "Automated market maker model",
+      "summary": "An automated market maker (AMM) is a decentralized exchange model that replaces order books with smart-contract liquidity pools. In the standard AMM setup, liquidity providers deposit pairs of tokens—typically at equal value—into a pool, and traders swap against that pooled liquidity while prices are determined algorithmically from the pool’s asset balances.",
       "keyPoints": [
-        "Uniswap Labs states that Hayden Adams created the Uniswap Protocol in 2018.",
-        "Uniswap’s official support documentation says Uniswap v1, the first version of the protocol, launched in November 2018.",
-        "Multiple corroborating sources, including Wikipedia and academic references, give the specific launch date as November 2, 2018.",
-        "Uniswap launched as a decentralized exchange protocol on Ethereum and later expanded through newer versions such as v2, v3, and v4."
+        "Chainlink defines a liquidity pool as a smart contract holding two or more tokens for decentralized trading, and notes that a typical LP deposits an equal value of two different tokens such as ETH and USDC.",
+        "Coinbase explains that AMMs use liquidity pools plus a constant mathematical formula to determine prices from the ratio of assets in the pool, rather than matching buyers and sellers in an order book.",
+        "Uniswap documentation and governance materials describe LPs as depositing tokens into pools so traders can swap token pairs through an on-chain AMM, with LPs generally earning a share of trading fees in return.",
+        "Uniswap v3 expanded the basic token-pair pool model by allowing concentrated liquidity and, in some cases, single-token deposits within custom price ranges, but the core AMM concept still centers on pooled on-chain liquidity used for swaps."
       ],
       "sources": [
         {
-          "title": "Uniswap v2, v3, and v4 – Uniswap Labs",
-          "url": "https://support.uniswap.org/hc/en-us/articles/7425482965517-Uniswap-v2-v3-and-v4"
+          "title": "What Is a Liquidity Pool? DeFi Markets Explained | Chainlink",
+          "url": "https://chain.link/article/what-is-liquidity-pool"
         },
         {
-          "title": "About Uniswap Labs",
-          "url": "https://about.uniswap.org/"
+          "title": "What is an Automated Market Maker (AMM)? | Coinbase",
+          "url": "https://www.coinbase.com/learn/advanced-trading/what-is-an-automated-market-maker-amm"
         },
         {
-          "title": "A Short History of Uniswap",
-          "url": "https://blog.uniswap.org/uniswap-history"
-        },
-        {
-          "title": "Uniswap",
-          "url": "https://en.wikipedia.org/wiki/Uniswap"
-        },
-        {
-          "title": "UNISWAP: Impermanent Loss and Risk Profile of a Liquidity Provider",
-          "url": "https://arxiv.org/abs/2106.14404"
-        }
-      ]
-    },
-    "AMM liquidity pools funded by liquidity providers depositing token pairs": {
-      "canonical": "AMM liquidity pools funded by liquidity providers depositing token pairs",
-      "summary": "In Uniswap-style automated market makers (AMMs), a liquidity pool is a smart contract that holds reserves of two tokens, and users called liquidity providers (LPs) fund the pool by depositing a token pair rather than placing buy/sell orders in an order book. Trading happens directly against the pool, with prices determined algorithmically from the pool’s token balances—classically by the constant-product formula x*y=k. In return for supplying capital, LPs receive a position representing their share of the pool and can earn a portion of swap fees, though returns depend on protocol version and market conditions.",
-      "keyPoints": [
-        "Uniswap explains that a liquidity pool is a pair of tokens stored in a pool contract, funded by users who provide token pairs so others can swap against the pool.",
-        "For the classic Uniswap AMM model, prices are determined by the pool reserves using x*y=k, where x and y are the quantities of the two tokens and swaps change the reserve ratio, which changes price.",
-        "Uniswap’s AMM materials state that anyone can become an LP by depositing equal values of both tokens into a pool; LPs receive a position representing ownership and typically earn fees from swaps routed through that pool.",
-        "Uniswap documentation distinguishes versions: v2 LPs received UNI-V2 tokens, while newer designs such as v3 use position-based liquidity with customizable price ranges rather than a simple full-range fungible share."
-      ],
-      "sources": [
-        {
-          "title": "What is a liquidity pool? – Uniswap Labs",
-          "url": "https://support.uniswap.org/hc/en-us/articles/8829880740109-What-is-a-liquidity-pool"
-        },
-        {
-          "title": "How does the Uniswap protocol work? – Uniswap Labs",
-          "url": "https://support.uniswap.org/hc/en-us/articles/8671577468813-How-does-the-Uniswap-protocol-work"
-        },
-        {
-          "title": "What is an Automated Market Maker?",
-          "url": "https://blog.uniswap.org/what-is-an-automated-market-maker"
-        },
-        {
-          "title": "How are token prices determined? – Uniswap Labs",
-          "url": "https://support.uniswap.org/hc/en-us/articles/7422670207373-How-are-token-prices-determined"
+          "title": "Uniswap Objective Function - Governance-Meta - Uniswap Governance",
+          "url": "https://gov.uniswap.org/t/uniswap-objective-function/21005"
         },
         {
           "title": "Uniswap 101: What is Uniswap?",
-          "url": "https://blog.uniswap.org/what-is-uniswap"
+          "url": "https://blog.uniswap.org/es-ES/what-is-uniswap"
         },
         {
           "title": "Introducing Uniswap v3",
           "url": "https://blog.uniswap.org/pt-BR/uniswap-v3"
-        },
-        {
-          "title": "Uniswap v2 Core",
-          "url": "https://app.uniswap.org/whitepaper.pdf"
         }
       ]
     },
-    "SEC v. Ripple (2023) ruling on programmatic token sales not necessarily being securities transactions": {
-      "canonical": "SEC v. Ripple (2023) ruling on programmatic token sales not necessarily being securities transactions",
-      "summary": "In its July 13, 2023 summary-judgment ruling in SEC v. Ripple Labs, Judge Analisa Torres held that Ripple’s institutional XRP sales were unregistered securities offerings, but Ripple’s programmatic sales on digital-asset exchanges were not securities transactions on the facts presented. The court’s reasoning turned on the Howey test and the transaction context: exchange buyers in blind bid/ask trades could not know whether they were buying from Ripple, which undermined the SEC’s theory that those purchasers were led to expect profits specifically from Ripple’s efforts. The ruling did not declare XRP itself categorically not a security in every context; it distinguished among different types of offers and sales.",
+    "Programmatic token sales on exchanges not necessarily securities transactions": {
+      "canonical": "Programmatic token sales on exchanges not necessarily securities transactions",
+      "summary": "In SEC v. Ripple Labs, Judge Analisa Torres’s July 13, 2023 summary-judgment ruling held that Ripple’s \"programmatic sales\" of XRP on digital-asset exchanges did not, on the specific facts presented, constitute investment contracts under Howey, even though Ripple’s direct institutional sales did. The court’s reasoning focused on the transactional context: exchange trades were blind bid/ask transactions, so buyers generally did not know they were purchasing from Ripple and therefore could not reasonably rely on Ripple’s efforts in the same way as institutional counterparties. The ruling is widely described as fact-specific and not a blanket holding that all secondary-market token sales are outside securities law.",
       "keyPoints": [
-        "The July 13, 2023 S.D.N.Y. ruling held that Ripple’s \"Institutional Sales\" were investment contracts, while its \"Programmatic Sales\" and certain \"Other Distributions\" were not.",
-        "In a later October 3, 2023 order denying interlocutory appeal, the court clarified it did not hold that all exchange sales of digital assets can never be securities transactions; rather, it ruled that, on this record and under the totality of the circumstances, Ripple’s programmatic sales did not create a reasonable expectation of profits from Ripple’s efforts.",
-        "The August 7, 2024 remedies order states the SEC had alleged about $757 million in Ripple programmatic sales, while institutional sales involved about $728 million; remedies were sought only for the institutional-sales violations.",
-        "A May 2025 SEC statement describing the Ripple settlement said the parties would not seek to vacate or amend the district court’s summary-judgment ruling, meaning the 2023 distinction between institutional and programmatic sales remained in place at that stage."
+        "The court distinguished between transaction types: institutional XRP sales were held to be unregistered securities offerings, while programmatic exchange sales were not, showing that the same token can be sold in ways that are or are not securities transactions depending on the facts.",
+        "A key factual basis was that programmatic buyers on exchanges typically did not know whether they were buying from Ripple or another seller because the trades occurred through blind bid/ask mechanisms.",
+        "The opinion emphasized that XRP itself was not inherently a security; instead, the court analyzed whether particular contracts, transactions, or schemes satisfied the Howey test.",
+        "The SEC challenged the programmatic-sales holding, but commentary after the decision noted that Judge Torres did not hold that all secondary-market sales of crypto tokens are categorically non-securities transactions; the analysis remained context-dependent."
+      ],
+      "sources": [
+        {
+          "title": "Ripple Labs: District Court Holds That Direct Digital Token Sales Constituted Investment Contracts Under Howey, but Other Transactions Did Not | Insights | Skadden, Arps, Slate, Meagher & Flom LLP",
+          "url": "https://www.skadden.com/insights/publications/2023/07/ripple-labs"
+        },
+        {
+          "title": "Ripple Labs: District Court Holds That Direct Digital Token Sales Constituted Investment Contracts Under Howey, but Other Transactions Did Not (PDF)",
+          "url": "https://www.skadden.com/-/media/files/publications/2023/07/ripple-labs/ripplelabsdistrictcourtholdsthatdirectdigitaltokensalesconstitutedinvestmentcontractsunderhoweybutot.pdf?rev=d52b21954a0d4512a7297ab7100307bf"
+        },
+        {
+          "title": "Judge Torres: Sales of Ripple’s Crypto Tokens on Exchanges Are Not Securities Transactions | Steptoe",
+          "url": "https://www.steptoe.com/en/news-publications/sdny-blog/judge-torres-sales-of-ripples-crypto-tokens-on-exchanges-are-not-securities-transactions.html"
+        },
+        {
+          "title": "Changing Tides or a Ripple in Still Water? Examining the SEC v. Ripple Ruling | Ropes & Gray LLP",
+          "url": "https://www.ropesgray.com/en/insights/alerts/2023/07/changing-tides-or-a-ripple-in-still-water-examining-the-sec-v-ripple-ruling"
+        },
+        {
+          "title": "SEC.gov | Statement on the Agency’s Settlement with Ripple Labs, Inc.",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/crenshaw-statement-ripple-050825"
+        },
+        {
+          "title": "SEC seeks permission to appeal Ripple decision | Axios",
+          "url": "https://www.axios.com/2023/08/09/sec-ripple-decision-appeal"
+        }
+      ]
+    },
+    "SEC classification of most cryptocurrencies as securities": {
+      "canonical": "SEC classification of most cryptocurrencies as securities",
+      "summary": "Search results from SEC materials support a nuanced version of the concept: the SEC has often taken the position in enforcement and staff-level analysis that many crypto assets may be securities under the Howey investment-contract test, but it has not issued a blanket rule that \"most cryptocurrencies\" are securities. Across SEC-related filings and statements, Bitcoin and Ether are repeatedly identified as the main publicly noted exceptions, based largely on their decentralized networks and the SEC's historical reluctance to allege they are securities.",
+      "keyPoints": [
+        "SEC analysis typically treats crypto-asset status as a facts-and-circumstances question under the Howey test, not as an automatic classification for all tokens.",
+        "Multiple SEC-related filings state that Bitcoin and Ethereum were the only specific cryptocurrencies that senior SEC officials had publicly said were unlikely to be securities, while some centrally issued assets received SEC staff no-action relief.",
+        "Recent SEC materials also clarify that a crypto asset is not necessarily itself a security in all contexts; rather, it can be sold as part of an investment contract depending on the surrounding offers, sales, and promotional scheme.",
+        "SEC-related 2025 materials and registrant disclosures still describe regulatory uncertainty: the SEC has historically not publicly asserted that Bitcoin or Ether are securities, but has brought actions involving many other tokens and offerings."
+      ],
+      "sources": [
+        {
+          "title": "SEC filing excerpt discussing digital assets, Howey, and Bitcoin/Ethereum treatment",
+          "url": "https://www.sec.gov/Archives/edgar/data/1729997/000119312522013008/d269049dex991.htm"
+        },
+        {
+          "title": "The9 Ltd. 2024 annual report discussing SEC views on Bitcoin, Ethereum, and other cryptocurrencies",
+          "url": "https://www.sec.gov/Archives/edgar/data/1296774/000141057825000945/ncty-20241231x20f.htm"
+        },
+        {
+          "title": "SEC-related code of ethics excerpt stating the SEC is currently taking the position that most crypto and digital assets are securities, other than Bitcoin and Ether",
+          "url": "https://www.sec.gov/Archives/edgar/data/896975/000119312525167896/d946912dex99p1.htm"
+        },
+        {
+          "title": "Prospectus excerpt stating Bitcoin and Ethereum are the only cryptocurrencies senior SEC officials publicly said are unlikely to be securities",
+          "url": "https://www.sec.gov/Archives/edgar/data/1945565/000121390023003306/filename1.htm"
+        },
+        {
+          "title": "SEC order excerpt clarifying that a crypto asset may be the object of an investment contract rather than itself being a security in perpetuity",
+          "url": "https://www.sec.gov/files/rules/sro/cboebzx/2025/34-102394.pdf"
+        },
+        {
+          "title": "2025 filing noting SEC officials indicated Bitcoin is not currently considered a security and historically did not consider Ether a security",
+          "url": "https://www.sec.gov/Archives/edgar/data/1040674/000110465926014816/tm265722d1_485apos.htm"
+        }
+      ]
+    },
+    "Bitcoin and Ethereum as exceptions to SEC classification": {
+      "canonical": "Bitcoin and Ethereum as exceptions to SEC classification",
+      "summary": "SEC materials show that Bitcoin and Ether have often been treated as notable exceptions in crypto securities discussions, but the basis differs and Ethereum’s status has been less definitive. In a June 14, 2018 SEC speech, William Hinman said that, given Ether’s then-current decentralized structure, current offers and sales of Ether were not securities transactions, and he said the same disclosure logic added little value for Bitcoin. SEC guidance published in 2019 framed this around the Howey test: a digital asset may cease to involve a securities transaction if purchasers are no longer relying on a central group’s managerial efforts. However, later SEC-related materials and public reporting indicate Hinman’s speech was widely viewed as his own staff-level view rather than a formal Commission rule, so Bitcoin is the clearer exception while Ethereum has remained more contested.",
+      "keyPoints": [
+        "In the SEC’s June 14, 2018 speech, William Hinman stated that 'current offers and sales of Ether are not securities transactions' and said that, as with Bitcoin, applying federal securities-law disclosure rules to current transactions would add little value.",
+        "The SEC’s 2019 digital-asset framework explains the principle behind that exception: under Howey, a token may fall outside securities treatment when the network is sufficiently decentralized and buyers are not relying on a promoter’s essential managerial efforts.",
+        "A 2019 SEC speech by Commissioner Hester Peirce described Hinman’s remarks as a 'well-known speech' and reiterated that digital assets can be securities if they meet Howey, implying the exception is transactional and fact-specific rather than a blanket exemption for crypto assets.",
+        "Senate Banking Committee materials from February 6, 2018 confirm Jay Clayton’s role in early SEC crypto oversight, while later SEC-related commentary and reporting show Ethereum’s classification remained less settled than Bitcoin’s, despite Hinman’s 2018 statement."
+      ],
+      "sources": [
+        {
+          "title": "SEC.gov | Digital Asset Transactions: When Howey Met Gary (Plastic)",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/speech-hinman-061418"
+        },
+        {
+          "title": "SEC.gov | Framework for “Investment Contract” Analysis of Digital Assets",
+          "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/framework-investment-contract-analysis-digital-assets"
+        },
+        {
+          "title": "SEC.gov | How We Howey",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-how-we-howey-050919"
+        },
+        {
+          "title": "hearing | Hearings | United States Committee on Banking, Housing, and Urban Affairs",
+          "url": "https://www.banking.senate.gov/hearings/virtual-currencies-the-oversight-role-of-the-us-securities-and-exchange-commission-and-the-us-commodity-futures-trading-commission"
+        },
+        {
+          "title": "SEC Says Ether and Bitcoin Cryptocurrencies Aren't Securities | WIRED",
+          "url": "https://www.wired.com/story/sec-ether-bitcoin-not-securities/"
+        }
+      ]
+    },
+    "SEC v. Ripple case (2023)": {
+      "canonical": "SEC v. Ripple case (2023)",
+      "summary": "In SEC v. Ripple Labs, Judge Analisa Torres’s July 13, 2023 summary-judgment ruling drew a transaction-by-transaction distinction under the Howey test rather than holding XRP itself to be a security. The court held that Ripple’s direct institutional XRP sales were unregistered securities offerings, but its \"programmatic sales\" on crypto trading platforms were not, because the SEC failed to show that an objective public-market buyer would reasonably expect profits from Ripple’s managerial efforts in those blind bid/ask transactions.",
+      "keyPoints": [
+        "The ruling was issued on July 13, 2023, by the U.S. District Court for the Southern District of New York in SEC v. Ripple Labs, Inc.; it granted summary judgment in part to both sides.",
+        "The court said Ripple’s institutional sales of XRP violated Section 5 of the Securities Act, while programmatic sales on exchanges did not satisfy Howey’s expectation-of-profits-from-others prong.",
+        "In discussing programmatic sales, the court emphasized that exchange buyers generally could not know whether they were buying from Ripple, many may not have known Ripple’s role, and those sales represented less than 1% of global XRP trading volume.",
+        "The decision was influential but limited: later 2023 filings show the SEC sought interlocutory appeal on the programmatic-sales issue, and the court clarified that its ruling turned on the specific factual record and totality of circumstances in Ripple rather than a blanket rule for all secondary-market crypto sales."
       ],
       "sources": [
         {
@@ -679,48 +595,20 @@
           "url": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2020cv10832/551082/917/"
         },
         {
-          "title": "Securities and Exchange Commission v. Ripple Labs Inc. et al., No. 1:2020cv10832 - Document 973 (S.D.N.Y. 2024) :: Justia",
-          "url": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2020cv10832/551082/973/"
+          "title": "SECURITIES AND EXCHANGE COMMISSION v. RIPPLE LABS INC (2023) | FindLaw",
+          "url": "https://caselaw.findlaw.com/court/us-dis-crt-sd-new-yor/114606460.html"
         },
         {
-          "title": "Statement on the Agency’s Settlement with Ripple Labs, Inc.",
-          "url": "https://www.sec.gov/newsroom/speeches-statements/crenshaw-statement-ripple-050825"
+          "title": "SEC Will Appeal XRP Ruling in Case Against Ripple",
+          "url": "https://www.coindesk.com/policy/2023/08/09/sec-will-appeal-xrp-ruling-in-case-against-ripple-regulator-says/"
         },
         {
-          "title": "Teucrium XRP ETF filing excerpt discussing July 13, 2023 Ripple ruling",
-          "url": "https://www.sec.gov/Archives/edgar/data/1683471/000089418925000233/teucriumxrpetfs.htm"
-        }
-      ]
-    },
-    "SEC classification of most cryptocurrencies as securities with exceptions for Bitcoin and Ethereum": {
-      "canonical": "SEC classification of most cryptocurrencies as securities with exceptions for Bitcoin and Ethereum",
-      "summary": "SEC materials support a nuanced version of this concept: the agency has repeatedly said many crypto assets may be securities under the federal securities laws, but it has not adopted a formal rule declaring that most cryptocurrencies are securities. Bitcoin is the clearest exception in official SEC statements, with the SEC in 2024 describing bitcoin as a 'non-security commodity.' Ethereum has often been treated by market participants and some SEC officials as likely not a security in its current form, but that view has historically come from speeches, staff frameworks, litigation positions, and SEC filings rather than a binding Commission-wide rule expressly exempting Ether.",
-      "keyPoints": [
-        "In 2018, SEC Chairman Jay Clayton testified that some cryptocurrencies 'do not appear to be securities,' while emphasizing that many crypto offerings are promoted as investments that may fall under securities laws.",
-        "In a January 10, 2024 statement approving spot bitcoin ETPs, Chair Gary Gensler said the action was limited to products holding 'one non-security commodity, bitcoin,' making Bitcoin the strongest explicit SEC-recognized exception.",
-        "SEC-related filings and disclosures repeatedly state that Bitcoin and Ether are the only crypto assets that senior SEC officials have publicly indicated are unlikely to be securities in their current form, but those same documents stress that such statements are not binding SEC rules.",
-        "The SEC's 2019 Framework for 'Investment Contract' Analysis of Digital Assets explains that whether a token is a security depends on the Howey test and facts such as reliance on managerial efforts, rather than on a categorical label applied to all cryptocurrencies."
-      ],
-      "sources": [
-        {
-          "title": "Chairman’s Testimony on Virtual Currencies: The Roles of the SEC and CFTC",
-          "url": "https://www.sec.gov/newsroom/speeches-statements/testimony-virtual-currencies-oversight-role-us-securities-exchange-commission-us-commodity-futures"
+          "title": "Defining Digital Asset Securities: US District Court Issues Summary Judgment Rulings in SEC v. Ripple Labs | Mayer Brown",
+          "url": "https://www.mayerbrown.com/en/insights/publications/2023/07/defining-digital-asset-securities-us-district-court-issues-summary-judgment-rulings-in-sec-v-ripple-labs"
         },
         {
-          "title": "Statement on the Approval of Spot Bitcoin Exchange-Traded Products",
-          "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023"
-        },
-        {
-          "title": "Framework for “Investment Contract” Analysis of Digital Assets",
-          "url": "https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets"
-        },
-        {
-          "title": "Dear Fellow Shareholders: Annual Report excerpt discussing SEC views on Bitcoin and Ether",
-          "url": "https://www.sec.gov/Archives/edgar/data/1856028/000114036124022869/ny20021834x3_ars.pdf"
-        },
-        {
-          "title": "SEC filing excerpt stating Bitcoin and Ether are the only cryptocurrencies senior SEC officials have publicly stated are unlikely to be securities",
-          "url": "https://www.sec.gov/Archives/edgar/data/1945565/000121390023003306/filename1.htm"
+          "title": "SEC v. Ripple Labs, Inc., et al.: A Turning Point in Cryptocurrency Jurisprudence? | Greenberg Traurig LLP",
+          "url": "https://www.gtlaw.com/en/insights/2023/7/sec-v-ripple-labs--a-turning-point-in-cryptocurrency-jurisprudence"
         }
       ]
     }

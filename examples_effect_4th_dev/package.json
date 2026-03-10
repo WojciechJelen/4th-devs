@@ -3,6 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "fetch:people": "bun --env-file .env quests/quest_1.ts"
+  },
   "devDependencies": {
     "@effect/language-service": "^0.79.0",
     "@types/bun": "latest"
