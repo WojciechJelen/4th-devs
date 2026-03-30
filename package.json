@@ -6,6 +6,7 @@
     "node": ">=24"
   },
   "scripts": {
+    "sync": "git fetch upstream && git merge upstream/main",
     "ensure:files-mcp": "node ./ensure-files-mcp.mjs",
     "lesson1:install": "npm install --prefix ./01_01_interaction && npm install --prefix ./01_01_structured && npm install --prefix ./01_01_grounding",
     "lesson1:interaction": "node ./01_01_interaction/app.js",
